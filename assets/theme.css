@@ -20535,6 +20535,10 @@ body.notification-visible .popup.popup--visible {
   color: var(--text);
 }
 
+.snize-ac-results .snize-nothing-found a.snize-ac-view-all-products {
+  color: #fff;
+}
+
 .icon-section-row {
   display: flex;
   padding: 65px 100px;

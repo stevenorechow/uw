@@ -108,7 +108,7 @@
       <div class="product__media__outer">
         <div class="product__media__inner">
           <div class="{{ image_container_class }}" style="--aspect-ratio: {{ image_aspect_ratio }};">
-            <a class="product__media__holder" href="{{ product.url | within: collection }}" aria-label="{{ product.title | strip_html | escape }}"
+            <a class="product__media__holder" href="{{ product.url }}" aria-label="{{ product.title | strip_html | escape }}"
               {% if animations_enabled %}
                 data-aos="zoom-out"
                 data-aos-easing="ease"
@@ -172,7 +172,7 @@
                         {%- assign image = media.preview_image -%}
                         <div class="product__media__slide lazy-image" data-product-media-slideshow-slide style="background-image: url({{ image | img_url: '1x1' }});">
                           <div class="product__media lazyload"
-                            href="{{ product.url | within: collection }}"
+                            href="{{ product.url }}"
                             aria-label="{{ product.title | strip_html | escape }}"
                             data-bgset="{% render 'bgset', image: image %}"
                             data-sizes="auto"
@@ -181,7 +181,7 @@
                           </div>
                           <noscript>
                             <div class="product__media"
-                              href="{{ product.url | within: collection }}"
+                              href="{{ product.url }}"
                               aria-label="{{ product.title | strip_html | escape }}"
                               style="background-image: url({{ image | img_url: '600x' }})">
                             </div>
@@ -315,7 +315,7 @@
             {%- unless settings.quick_button == 'none' -%}
               {%- if settings.quick_button == 'view' -%}
                 <a class="btn--quick"
-                  href="{{ product.url | within: collection }}"
+                  href="{{ product.url }}"
                   aria-label="{{ product.title | strip_html | escape }}"
                   data-handle="{{ product.handle }}"
                   data-button-quick-view
@@ -360,7 +360,7 @@
         data-aos-delay="{{ animation_delay | times: 150 }}"
       {% endif %}>
       {% comment %} Title {% endcomment %}
-      <a class="product-grid-item__title" href="{{ product.url | within: collection }}" aria-label="{{ product.title | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %}>
+      <a class="product-grid-item__title" href="{{ product.url }}" aria-label="{{ product.title | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %}>
         {{- product.title | strip_html | escape -}}
       </a>
 
@@ -370,7 +370,7 @@
       {%- endif -%}
 
       {%- comment -%} Price {%- endcomment -%}
-      <a class="product-grid-item__price price" href="{{ product.url | within: collection }}"{% if index > 1 %} tabindex="-1"{% endif %}>
+      <a class="product-grid-item__price price" href="{{ product.url }}"{% if index > 1 %} tabindex="-1"{% endif %}>
         {%- liquid
           if product.price == 0 and product.price_varies == false
             assign product_price = 'products.product.free' | t
@@ -419,7 +419,7 @@
       </a>
 
       {%- if settings.show_rating and product.metafields.reviews != empty -%}
-        <a href="{{ product.url | within: collection }}" class="product-grid-item__rating"{% if index > 1 %} tabindex="-1"{% endif %}>
+        <a href="{{ product.url }}" class="product-grid-item__rating"{% if index > 1 %} tabindex="-1"{% endif %}>
           {%- render 'rating', reviews: product.metafields.reviews, show_rating_count: settings.show_rating_count, tabindex_hidden: tabindex_hidden -%}
         </a>
       {%- endif -%}
