@@ -4,9 +4,26 @@
   <meta charset="utf-8">
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-  {%- if page.handle == 'search-results-page' -%}
+
+  {%- comment -%} Capture the content for header containing the tracking data {%- endcomment -%}
+  {%- capture contentForQuerystring -%}
+    {{ content_for_header }}
+  {%- endcapture -%}
+
+  {% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
+  {%- assign pageUrl = contentForQuerystring |
+    split:'"pageurl":"' | last |
+    split:'"' | first |
+    split:'.myshopify.com' | last |
+    replace:'\/','/' | 
+    replace:'%20',' ' | 
+    replace:'\u0026','&'
+  -%}
+
+  {%- if pageUrl contains "?" or page.handle == 'search-results-page' -%}
     <meta name="robots" content="noindex, nofollow">
   {%- endif -%}
+
   <link rel="canonical" href="{{ canonical_url }}" />
 
   <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
