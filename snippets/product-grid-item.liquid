@@ -107,7 +107,7 @@
       -%}
       <div class="product__media__outer">
         <div class="product__media__inner">
-          <div class="{{ image_container_class }}" style="--aspect-ratio: {{ image_aspect_ratio }};">
+          <div class="{{ image_container_class }}">
             <a class="product__media__holder" href="{{ product.url }}" aria-label="{{ product.title | strip_html | escape }}"
               {% if animations_enabled %}
                 data-aos="zoom-out"
