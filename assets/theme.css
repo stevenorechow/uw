@@ -20535,6 +20535,34 @@ body.notification-visible .popup.popup--visible {
   color: var(--text);
 }
 
-.snize-ac-results .snize-nothing-found a.snize-ac-view-all-products {
-  color: #fff
+.icon-section-row {
+  display: flex;
+  padding: 100px;
+}
+
+.icon-section-col {
+  width: 33.33%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  .icon-section-row {
+    padding: 20px;
+  }
+
+  .icon-section-col svg {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-section-col svg {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .icon-section-col h3 {
+    font-size: 20px;
+  }
 }
