@@ -4,6 +4,7 @@
   assign animations_enabled = settings.animations_enabled
   assign animation_anchor = '#Article--' | append: section.id
   assign animation_delay = 150
+  assign show_breadcrumbs = section.settings.show_breadcrumbs
 -%}
 
 {%- style -%}
@@ -25,8 +26,13 @@
   class="section-padding"
   data-section-type="article"
   data-section-id="{{ section.id }}">
+
   <div class="wrapper--narrow">
     <article class="article__wrapper">
+
+      {%- if show_breadcrumbs -%}
+        {%- render 'breadcrumbs' -%}
+      {%- endif -%}
 
       <header class="section-header section-header--article">
         <h1
@@ -339,6 +345,12 @@
     "name": "Posts",
     "class": "article-page",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_breadcrumbs",
+        "label": "Show breadcrumbs",
+        "default": true
+      },
       {
         "type": "checkbox",
         "id": "show_date",

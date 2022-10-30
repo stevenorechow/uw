@@ -22,7 +22,7 @@
   data-enable-history-state="true"
   data-section-type="product-template"
   data-section-id="{{ section.id }}">
-  <div class="{{ section_width }}">
+  <div class="product__inner {{ section_width }}">
     {%- render 'product' section: section, unique: section.id -%}
   </div>
 </section>
@@ -85,6 +85,12 @@
     {
       "type": "header",
       "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
     },
     {
       "type": "select",

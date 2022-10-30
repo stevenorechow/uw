@@ -31,6 +31,14 @@
         "padding_bottom": 60
       }
     },
+    "d93b2818-2d42-4641-b2f6-52ca94929be7": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" alt=\"Free Shipping\" >\n        <h4>Free Shipping<\/h4>\n        <p>\n            When you spend over $99* Some exclusions apply\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" alt=\"Responsive Support\" >\n        <h4>Responsive Support<\/h4>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" alt=\"Our Guarentee\" >\n        <h4>Our Guarantee<\/h4>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "tab-collections": {
       "type": "section-tab-collections",
       "blocks": {
@@ -491,6 +499,7 @@
   },
   "order": [
     "df2f9bff-0f22-4666-a9ad-093a53228614",
+    "d93b2818-2d42-4641-b2f6-52ca94929be7",
     "tab-collections",
     "custom-content-0",
     "image-with-text-0",

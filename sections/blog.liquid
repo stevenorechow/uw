@@ -34,6 +34,9 @@
   data-section-type="blog-posts"
   data-section-id="{{ section.id }}">
   <div class="wrapper--narrow">
+
+    {%- render 'breadcrumbs' -%}
+
     <h1 class="section-title text-center"
       {% if animations_enabled %}
         data-aos="fade-up"
@@ -188,6 +191,12 @@
   {
     "name": "Blog",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_breadcrumbs",
+        "label": "Show breadcrumbs",
+        "default": true
+      },
       {
         "type": "range",
         "id": "post_columns",

@@ -96,6 +96,7 @@
   },
   "blogs": {
     "article": {
+      "breadcrumbs": "Blog posts",
       "by_author": "By {{ author }}",
       "older_post": "Older Post",
       "newer_post": "Newer Post",

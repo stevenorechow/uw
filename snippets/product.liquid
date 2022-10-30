@@ -23,6 +23,7 @@
   assign featured_media_id = featured_media.id
   assign first_3d_model = product.media | where: 'media_type', 'model' | first
   assign show_newsletter = settings.show_newsletter
+  assign show_breadcrumbs = section.settings.show_breadcrumbs
 
   assign sold_out = true
   if current_variant.available
@@ -63,7 +64,11 @@
     assign hide_labels_class = ' variant__labels--hide'
   endunless
 -%}
-{%- render 'breadcrumbs' -%}
+
+{%- if show_breadcrumbs -%}
+  {%- render 'breadcrumbs' -%}
+{%- endif -%}
+
 <div class="product-single__wrapper{% if image_size %} product__wrapper--{{ image_size }}{% endif %}" data-section-id="{{ unique }}" data-product>
   {%- comment -%} Product media {%- endcomment -%}
   {%- unless product == blank -%}
