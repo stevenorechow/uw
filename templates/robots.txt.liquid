@@ -1,0 +1,26 @@
+{%- comment -%}
+# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
+{% endcomment %}
+{% assign removed_rule_values = "/66779447512/orders,/66779447512/checkouts" | split:"," %}
+
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+  
+  {% for rule in group.rules %}
+    {%- unless rule.directive == 'Disallow' and removed_rule_values contains rule.value -%}
+      {{ rule }}
+    {%- endunless -%}
+  {% endfor %}
+
+  {%- if group.user_agent.value == '*' -%}
+{{ 'Disallow: /*/orders' }}
+
+{{ 'Disallow: /*/checkouts' }}
+
+{{ 'Disallow: /pages/search-results-page' }}
+  {%- endif -%}
+
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}
