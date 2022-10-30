@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height"
+      }
+    },
+    "text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {}
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {}
+        },
+        "button": {
+          "type": "button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {}
+    },
+    "section-custom-content-0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "button_text": "",
+            "button_link": "",
+            "bg_color": "#f4f4f4"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section-custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "button_text": "",
+            "button_link": "",
+            "bg_color": "#f4f4f4"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "image"
+      ],
+      "settings": {
+        "height": "five-fifty-height",
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-image-with-text": {
+      "type": "section-image-with-text",
+      "settings": {}
+    },
+    "section-press": {
+      "type": "section-press",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "button_text": ""
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "button_text": ""
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "button_text": ""
+          }
+        },
+        "column-3": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "Add a list right here",
+        "align_text": "text-left",
+        "columns": 3,
+        "bg_color": "",
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true
+      }
+    },
+    "section-icons-row": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $99<\/p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "refresh-cw",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "heart",
+            "title": "1% Donated Annually",
+            "text": "<p>to forest conservation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "bg_color": "#f6f6f7",
+        "box_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_style": "secondary btn--small",
+        "padding_top": 60,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow",
+    "text",
+    "section-custom-content-0",
+    "section-custom-content-1",
+    "section-image-with-text",
+    "section-press",
+    "columns",
+    "section-icons-row",
+    "main"
+  ]
+}

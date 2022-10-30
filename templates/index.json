@@ -1,0 +1,506 @@
+{
+  "sections": {
+    "df2f9bff-0f22-4666-a9ad-093a53228614": {
+      "type": "section-custom-content",
+      "blocks": {
+        "43c20b2f-a646-4820-ba84-d2658f73c658": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image_position": "center-center",
+            "overlay_opacity": 10,
+            "text_color": "text-dark",
+            "title": "Discover thousands of quality products at a fraction of the price.",
+            "heading_size": 120,
+            "text": "You'll find incredible deals with Urban Wholesale.",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "43c20b2f-a646-4820-ba84-d2658f73c658"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "tab-collections": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Sale",
+            "tab_collection": "frontpage",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "tab-1": {
+          "type": "collection",
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "tab-2": {
+          "type": "collection",
+          "settings": {
+            "title": "Staff Picks",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "tab-0",
+        "tab-1",
+        "tab-2"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "custom-content-0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Subheading",
+            "title": "Our Story",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "btn--secondary btn--small",
+            "bg_color": ""
+          }
+        },
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image_position": "center-center",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "image-0"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image-with-text-0": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "text_position": "left",
+        "image_background": true,
+        "bg_position": "center-center",
+        "text_alignment": "center",
+        "subheading": "Subheading",
+        "heading": "Our Story",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Learn More",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "video_link_color": "text-dark",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "marquee": {
+      "type": "section-marquee",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free shipping on orders over $100<\/p>",
+            "icon_name": "alert-circle",
+            "icon_color": "#3b82f6",
+            "icon_width": 15,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text-0"
+      ],
+      "settings": {
+        "bg_color": "#d4e4ff",
+        "color": "#004ac7",
+        "layout": "marquee",
+        "padding": 20,
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "text_size": 150,
+        "message_spacing": 25,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collection": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "frontpage",
+        "title": "Best Sellers",
+        "text": "",
+        "text_alignment": "text-left",
+        "products_rows": 2,
+        "products_layout": "grid",
+        "show_collection_button": true,
+        "button_style": "btn--text",
+        "bg_color": "",
+        "enable_slider_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1_position": "center-center",
+        "image_link_1": "",
+        "image_2_position": "center-center",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Our Story, Our Promise",
+        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "grid-0": {
+      "type": "section-grid",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Shop Trending",
+            "text": "Add more info or delete this text",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Shop Clearance",
+            "text": "Add more info or delete this text",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Shop <br> Best Sellers",
+            "text": "Add more info or delete this text",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1",
+        "image-2"
+      ],
+      "settings": {
+        "height": "550",
+        "heading_size": 130,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color": "",
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "testimonials": {
+      "type": "section-testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "text",
+          "settings": {
+            "heading": "We let our reviews speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>4.98 average<br>213 reviews<\/p>",
+            "block_color": "#000000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-1": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "text_position": "left",
+        "image_background": false,
+        "bg_position": "center-center",
+        "text_alignment": "left",
+        "subheading": "Subheading",
+        "heading": "Our Story",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Learn More",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "video_link_color": "text-dark",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "grid-2": {
+      "type": "section-grid",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Image",
+            "text": "Add more info or delete this text",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Image",
+            "text": "Add more info or delete this text",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1"
+      ],
+      "settings": {
+        "height": "550",
+        "heading_size": 150,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color": "",
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "newsletter": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Newsletter",
+        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
+        "extra_fields": "name",
+        "button_text": "",
+        "bg_color": "",
+        "image_height": "three-fifty-height",
+        "image_position": "center-center",
+        "overlay_opacity": 10,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "df2f9bff-0f22-4666-a9ad-093a53228614",
+    "tab-collections",
+    "custom-content-0",
+    "image-with-text-0",
+    "marquee",
+    "collection",
+    "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5",
+    "grid-0",
+    "testimonials",
+    "image-with-text-1",
+    "grid-2",
+    "newsletter"
+  ]
+}

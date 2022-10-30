@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {}
+    },
+    "section-custom-content": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.image }}",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "{{ collection.title }}",
+            "heading_size": 100,
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "bg_color": "",
+        "width": "wrapper--full-padded"
+      }
+    },
+    "section-collection-marbles": {
+      "type": "section-collection-marbles",
+      "disabled": true,
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "show_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-2"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 100,
+        "image_shape": "rect",
+        "title": "",
+        "text_size": 120,
+        "overlay_text": true,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper--full-padded",
+        "padding_top": 50,
+        "padding_bottom": 10
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {}
+    },
+    "main": {
+      "type": "collection",
+      "settings": {}
+    }
+  },
+  "order": [
+    "section-custom-content",
+    "hero",
+    "section-collection-marbles",
+    "subcollections",
+    "main"
+  ]
+}
