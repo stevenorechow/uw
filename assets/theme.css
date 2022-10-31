@@ -6946,8 +6946,8 @@ button.mfp-close {
   word-break: break-all;
 }
 .has-scrolled .logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   height: 40px;
 }
 @media only screen and (min-width: 768px) {
@@ -20546,7 +20546,7 @@ body.notification-visible .popup.popup--visible {
 
 .icon-section-row {
   display: flex;
-  padding: 65px 100px;
+  padding: 50px 100px;
 }
 
 .icon-section-col {
@@ -20560,7 +20560,7 @@ body.notification-visible .popup.popup--visible {
   padding: 0px 25px;
 }
 .img-logo{
-  width: 70%;
+  width: 60%;
 }
 .product-grid-item__title,.snize-label{
   color: var(--text-darken) !important;
@@ -20618,14 +20618,22 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
 #snize_results.snize-mobile-design.snize-new-version #snize-search-results-list-mode li.snize-product .snize-button {
   border-radius: 8px !important;
 }
+.logo .logo__text-link {
+  line-height: 0;
+  padding: 7px 0px;
+}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .icon-section-col h3 {
     font-size: 20px;
   }
 
   .icon-section-col {
     width: 100%;
+  }
+
+  .img-logo{
+    width: 65%;
   }
 
   .icon-section-row {
@@ -20636,11 +20644,6 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
 @media only screen and (max-width: 1023px) {
   .icon-section-row {
     padding: 20px;
-  }
-
-  .icon-section-col img {
-    width: 80px !important;
-    height: 80px !important;
   }
 }
 
