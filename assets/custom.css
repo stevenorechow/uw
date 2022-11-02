@@ -15,6 +15,7 @@
 }
 .img-logo{
     width: 60%;
+    height: auto;
 }
 .product-grid-item__title,.snize-label{
     color: var(--text-darken) !important;
@@ -34,6 +35,10 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
 }
 .nav-search__submit {
     border-radius: 0 8px 8px 0;
+}
+.icons-heading{
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 #snize-search-results-grid-mode li.snize-product span.snize-title {
     font-size: calc(1rem * var(--adjust-body)) !important;
