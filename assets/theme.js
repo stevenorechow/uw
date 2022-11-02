@@ -13138,4 +13138,16 @@ window.addEventListener('load', () => {
 // Custom JS
 $(document).ready( function() {
   $('a[href^="http"]').not('a[href^="'+$(location).attr('hostname')+'"]').attr('target', '_blank');
+
+  $('.collection-link').on('focus', function() { 
+    $(this).addClass('js-isFocus');
+  });
+
+  $('.collection-link').on('focusout', function() { 
+    $(this).removeClass('js-isFocus collection-link--box-shadow');
+  });
+
+  $(document).on('keydown', function() {
+    $('.collection-link.js-isFocus').addClass('collection-link--box-shadow');
+  });
 });

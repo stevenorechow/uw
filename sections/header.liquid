@@ -238,6 +238,18 @@
     </div>
   </div>
 </nav>
+  
+  <div class="collections-bar">
+    <a href="{{ routes.collections_url }}" class="collection-link">
+      {%- render 'icon-hamburger' -%}
+      All
+    </a>
+    {%- for collection in collections -%}
+      <a href="{{ collection.url }}" class="collection-link">
+        {{ collection.title }}
+      </a>
+    {%- endfor -%}
+  </div>
 
 <div class="mobile-menu">
   {%- assign animation_delay = 150 -%}
