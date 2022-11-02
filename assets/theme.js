@@ -10138,7 +10138,12 @@ PaloAlto.Header = (function() {
       const headerWrapperStyles = this.headerWrapper.currentStyle || window.getComputedStyle(this.headerWrapper);
       const headerWidth = this.headerWrapper.clientWidth - parseFloat(headerWrapperStyles.paddingLeft) - parseFloat(headerWrapperStyles.paddingRight);
       const logoWidth = this.logo ? this.logo.offsetWidth : 0;
-      const navIconsWidth = this.navIcons ? this.navIcons.offsetWidth : 0;
+
+      // navIconsWidth must have 456px (search bar + account icon + cart icon)
+      // The searchbar is moved outside the navIcons so just put a fixed pixcel - 358px
+      //   to keep displaying the appropriate nav due to each screen size
+      const navIconsWidth = this.navIcons ? this.navIcons.offsetWidth + 358 : 0;
+
       let maxNavWidth = headerWidth - logoWidth - navIconsWidth - gap;
       let navItemsWidth = this.getNavItemsWidth();
 
