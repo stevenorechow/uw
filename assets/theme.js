@@ -10138,7 +10138,12 @@ PaloAlto.Header = (function() {
       const headerWrapperStyles = this.headerWrapper.currentStyle || window.getComputedStyle(this.headerWrapper);
       const headerWidth = this.headerWrapper.clientWidth - parseFloat(headerWrapperStyles.paddingLeft) - parseFloat(headerWrapperStyles.paddingRight);
       const logoWidth = this.logo ? this.logo.offsetWidth : 0;
-      const navIconsWidth = this.navIcons ? this.navIcons.offsetWidth : 0;
+
+      // navIconsWidth must have 456px (search bar + account icon + cart icon)
+      // The searchbar is moved outside the navIcons so just put a fixed pixcel - 358px
+      //   to keep displaying the appropriate nav due to each screen size
+      const navIconsWidth = this.navIcons ? this.navIcons.offsetWidth + 358 : 0;
+
       let maxNavWidth = headerWidth - logoWidth - navIconsWidth - gap;
       let navItemsWidth = this.getNavItemsWidth();
 
@@ -13138,4 +13143,16 @@ window.addEventListener('load', () => {
 // Custom JS
 $(document).ready( function() {
   $('a[href^="http"]').not('a[href^="'+$(location).attr('hostname')+'"]').attr('target', '_blank');
+
+  $('.collection-link').on('focus', function() { 
+    $(this).addClass('js-isFocus');
+  });
+
+  $('.collection-link').on('focusout', function() { 
+    $(this).removeClass('js-isFocus collection-link--box-shadow');
+  });
+
+  $(document).on('keydown', function() {
+    $('.collection-link.js-isFocus').addClass('collection-link--box-shadow');
+  });
 });
