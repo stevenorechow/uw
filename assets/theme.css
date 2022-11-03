@@ -7099,36 +7099,6 @@ button.mfp-close {
   display: none;
 }
 
-.nav--compress .menu__item--compress {
-  display: flex;
-  width: 100%;
-  margin-left: 150px;
-}
-
-.nav--compress .search-form {
-  width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.nav--default .menu__item--desktop {
-  width: 100%;
-  margin-left: 150px;
-}
-
-.nav--default .menu__item--search {
-  width: 50%;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media only screen and (min-width: 1440px) {
-  .nav--default .menu__item--search {
-    width: 60%;
-  }
-}
-
 .nav--compress .menu__item--mobile-search {
   display: flex;
   margin-left: auto;
@@ -20577,76 +20547,4 @@ body.notification-visible .popup.popup--visible {
 .snize-thumbnail-wrapper,
 .snize-button {
   max-width: 300px;
-}
-
-.has-scrolled .collections-bar {
-  top: 126px;
-}
-
-.collections-bar {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 140px;
-  display: none;
-  width: 100%;
-  height: 40px;
-  padding: 0 10px;
-  background: #475569;
-}
-
-@media only screen and (min-width: 768px) {
-  .collections-bar {
-    top: 137px;
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .has-scrolled .collections-bar {
-    top: 70px;
-  }
-
-  .collections-bar {
-    top: 81px;
-  }
-}
-
-.collections-bar > a {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 9px;
-  margin: 5px 0 6px;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.collections-bar > a:hover,
-.collections-bar > a:active,
-.collections-bar > a:focus {
-  color: #ccc;
-  border: 1px solid #fff;
-  border-radius: 2px;
-  padding: 7px 8px;
-}
-
-.collections-bar a:first-of-type {
-  gap: 5px;
-}
-
-.collections-bar a:first-of-type svg {
-  width: 24px;
-  height: 24px;
-}
-
-.collections-bar .collection-link:first-of-type {
-  color: #fff;
-}
-
-.collections-bar .collection-link--box-shadow:focus {
-  border: none;
-  border-radius: 0;
-  margin: 5px 2px 6px;
-  padding: 8px 7px;
-  box-shadow: 0 0 0 2px #dbeafe, 0 0 0 3px rgb(219 234 254 / 50%);
 }
