@@ -3,7 +3,31 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_page_title": true
+        "show_page_title": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "locations": {
+      "type": "section-locations",
+      "blocks": {
+        "locations-0": {
+          "type": "locations",
+          "settings": {
+            "title": "9631 Macleod Trail SW #110, Calgary, AB T2J 0P6",
+            "working_time": "<p>Mon - Fri: 12:00pm - 8:00pm<\/p><p>Sat: 10:00pm - 6:00pm<\/p><p>Sun: 11:00pm - 5:00pm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "locations-0"
+      ],
+      "settings": {
+        "subheading": "Urban Wholesale",
+        "title": "Location & hours",
+        "bg_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "contact-form": {
@@ -19,7 +43,7 @@
           "type": "text",
           "settings": {
             "title": "Name",
-            "required": false
+            "required": true
           }
         },
         "contact-form-2": {
@@ -32,7 +56,7 @@
         "contact-form-3": {
           "type": "body",
           "settings": {
-            "title": "Message",
+            "title": "How can we help you today?",
             "required": true
           }
         }
@@ -43,30 +67,11 @@
         "contact-form-2",
         "contact-form-3"
       ],
-      "settings": {}
-    },
-    "locations": {
-      "type": "section-locations",
-      "blocks": {
-        "locations-0": {
-          "type": "locations",
-          "settings": {}
-        },
-        "locations-1": {
-          "type": "locations",
-          "settings": {}
-        },
-        "locations-2": {
-          "type": "locations",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "locations-0",
-        "locations-1",
-        "locations-2"
-      ],
-      "settings": {}
+      "settings": {
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [

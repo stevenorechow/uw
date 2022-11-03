@@ -1,9 +1,5 @@
 {
   "sections": {
-    "hero": {
-      "type": "collection-image-with-title",
-      "settings": {}
-    },
     "section-custom-content": {
       "type": "section-custom-content",
       "disabled": true,
@@ -11,14 +7,17 @@
         "image": {
           "type": "image",
           "settings": {
+            "text_position": "middle-center",
             "image": "{{ collection.image }}",
+            "image_position": "center-center",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "{{ collection.title }}",
             "heading_size": 100,
             "text": "",
             "button_text": "",
-            "button_link": ""
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
           }
         }
       },
@@ -28,7 +27,23 @@
       "settings": {
         "height": "four-fifty-height",
         "bg_color": "",
-        "width": "wrapper--full-padded"
+        "width": "wrapper--full-padded",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "banner_height": "three-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-dark",
+        "overlay_opacity": 5,
+        "banner_bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section-collection-marbles": {
@@ -38,37 +53,49 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         },
         "collection-3": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         },
         "collection-4": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         },
         "collection-5": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
-            "show_color": false
+            "collection": "",
+            "show_color": false,
+            "bg_color": "#f7f7f7"
           }
         }
       },
@@ -99,11 +126,28 @@
     },
     "subcollections": {
       "type": "subcollections",
-      "settings": {}
+      "settings": {
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
     },
     "main": {
       "type": "collection",
-      "settings": {}
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
