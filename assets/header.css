@@ -1,3 +1,35 @@
+/* Navigation Bar */
+.nav--compress .menu__item--compress {
+  display: flex;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.nav--compress .search-form {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav--default .menu__item--desktop {
+  width: 100%;
+  margin-left: 150px;
+}
+
+.nav--default .menu__item--search {
+  width: 50%;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav--default .menu__item--search {
+    width: 60%;
+  }
+}
+
+/* Collections Bar */
 .has-scrolled .collections-bar {
   top: 126px;
 }
@@ -43,10 +75,14 @@
 .collections-bar > a:hover,
 .collections-bar > a:active,
 .collections-bar > a:focus {
-  color: #ccc;
   border: 1px solid #fff;
   border-radius: 2px;
   padding: 7px 8px;
+}
+
+.collections-bar > a:active,
+.collections-bar > a:focus {
+  color: #ccc;
 }
 
 .collections-bar a:first-of-type {
