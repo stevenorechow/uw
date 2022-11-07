@@ -2,7 +2,6 @@
   display: flex;
   padding: 50px 100px;
 }
-
 .icon-section-col {
   width: 33.33%;
   text-align: center;
@@ -17,12 +16,19 @@
   width: 60%;
   height: auto;
 }
-.product-grid-item__title,.snize-label{
+.snize-ac-results .snize-label {
+  color: var(--text-darken) !important;
+  font-weight: bold !important;
+}
+.product-grid-item__title {
   color: var(--text-darken) !important;
   font-weight: bold !important;
 }
 div.snize .snize-filters-sidebar div.snize-product-filters-title {
-  font-weight: bold
+  font-weight: bold;
+}
+#snize_results.snize-mobile-design.snize-new-version div.snize-main-panel-mobile-filters>a {
+  font-weight: bold;
 }
 .custom-scrollbar__thumb:before {
   background: var(--text-darken);
@@ -31,10 +37,10 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   color: var(--text-darken);
 }
 .nav-search__input {
-  border-radius: 8px 0 0 8px;
+  border-radius: 4px 0 0 4px;
 }
 .nav-search__submit {
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 4px 4px 0;
 }
 .icons-heading{
   font-size: 1.3rem;
@@ -57,25 +63,25 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   padding: 5px 0px !important;
 }
 #snize-search-results-list-mode li.snize-product .snize-button {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .snize-search-results#snize_results a {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .snize-search-results#snize_results a {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .snize-search-results#snize_results a {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 .snize-main-panel-controls a {
   border-radius: 0 !important;
 }
 #snize_results.snize-mobile-design.snize-new-version #snize-search-results-grid-mode li.snize-product .snize-button {
-  border-radius: 8px !important;
+  border-radius: 4px !important;
 }
 #snize_results.snize-mobile-design.snize-new-version #snize-search-results-list-mode li.snize-product .snize-button {
-  border-radius: 8px !important;
+  border-radius: 4px !important;
 }
 .logo .logo__text-link {
   line-height: 0;
@@ -87,16 +93,26 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
     font-size: 20px;
   }
 
-  .icon-section-col {
-    width: 100%;
-  }
-
   .img-logo{
     width: 65%;
   }
 
-  .icon-section-row {
-    flex-direction: column;
+  /* .icon-section-col {
+    text-align: left;
+  } */
+
+  .icon-section-col img {
+    width: 40px;
+  }
+
+  .icon-section-col p {
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .icons-heading {
+    font-size: 15px;
   }
 }
 
