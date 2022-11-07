@@ -89,6 +89,10 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
 }
 
 @media only screen and (max-width: 767px) {
+  .featured-image__scale > div {
+    height: 100%;
+  }
+
   .icon-section-col h3 {
     font-size: 20px;
   }
@@ -132,8 +136,4 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   .snize-thumbnail img {
     height: 250px;
   }
-}
-
-.featured-image__scale > div {
-  height: 100%;
 }
