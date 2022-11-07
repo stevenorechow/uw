@@ -133,3 +133,7 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
     height: 250px;
   }
 }
+
+.featured-image__scale > div {
+  height: 100%;
+}
