@@ -15284,10 +15284,12 @@ button.collection__filters__toggle {
   margin: 0 auto;
   padding-top: var(--gutter);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 .password-page__wrapper h1, .password-page__wrapper h3, .password-page__wrapper p, .password-page__wrapper small, .password-page__wrapper i, .password-page__wrapper a {
   color: var(--white);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .password-page__wrapper h1 {
   margin-bottom: 0;

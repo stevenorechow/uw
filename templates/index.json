@@ -1,7 +1,16 @@
 {
   "sections": {
+    "725b69db-6cea-4570-8a42-6ee24f136dbb": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<section id=\"brick-section--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" class=\"section-padding brick__section\" data-overflow-wrapper=\"\" data-section-id=\"template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" data-section-type=\"custom-content\" style=\"min-height: 650px;\">\n\n  <div class=\"brick__section__wrapper wrapper--full six-fifty-height\">\n    <div class=\"brick__blocks__flex brick__blocks__flex--stuck\" data-overflow-frame=\"\" style=\"min-height: 650px;\"><div id=\"BrickBlock--43c20b2f-a646-4820-ba84-d2658f73c658\" class=\"brick__block brick__block--image text-dark\">\n            <div class=\"brick__block__content\" data-overflow-content=\"\">\n              <div class=\"brick__block__inner\"><div class=\"brick__image six-fifty-height\" id=\"FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658\"><style data-shopify=\"\">#FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 { --overlay-opacity: 0.1; }\n  #FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * 1.2) }<\/style><div class=\"featured-image__pane\">\n  <div class=\"featured-image__scale\"><div><img class=\"placeholder-svg-filled\"src=\"{{ 'block-pattern.svg' | asset_url }}\" alt=\"Decorative\"><\/div><div class=\"overlay\"><\/div>\n  <\/div>\n<\/div>\n\n<div class=\"featured-image__content align--middle-center\">\n  <div class=\"featured-image__content-inner\" data-overflow-content=\"\"><h1 class=\"featured-image__caption main-text\">You'll find incredible deals with Urban Wholesale.<\/h1><h2 class=\"featured-image__heading main-heading\">Discover thousands of quality products at a fraction of the price.<\/h2><div class=\"featured-image__buttons main-buttons\">\n        <div class=\"main-buttons__item\">\n          <a class=\"btn btn--primary btn--small call-to-action\" href=\"\/collections\">Shop Now<\/a>\n        <\/div>\n      <\/div><\/div><\/div>\n                    <\/div><\/div>\n            <\/div>\n          <\/div><\/div>\n  <\/div>\n<\/section>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "df2f9bff-0f22-4666-a9ad-093a53228614": {
       "type": "section-custom-content",
+      "disabled": true,
       "blocks": {
         "43c20b2f-a646-4820-ba84-d2658f73c658": {
           "type": "image",
@@ -34,7 +43,7 @@
     "d93b2818-2d42-4641-b2f6-52ca94929be7": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"70\" height=\"70\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            When you spend over $99* Some exclusions apply\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"70\" height=\"70\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"70\" height=\"70\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            When you spend over $99* Some exclusions apply\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -46,7 +55,7 @@
           "type": "collection",
           "settings": {
             "title": "Sale",
-            "tab_collection": "frontpage",
+            "tab_collection": "new",
             "show_image": false,
             "overlay_opacity": 10,
             "heading": "",
@@ -205,7 +214,7 @@
     "collection": {
       "type": "section-collection",
       "settings": {
-        "collection": "frontpage",
+        "collection": "new",
         "title": "Best Sellers",
         "text": "",
         "text_alignment": "text-left",
@@ -498,6 +507,7 @@
     }
   },
   "order": [
+    "725b69db-6cea-4570-8a42-6ee24f136dbb",
     "df2f9bff-0f22-4666-a9ad-093a53228614",
     "d93b2818-2d42-4641-b2f6-52ca94929be7",
     "tab-collections",
