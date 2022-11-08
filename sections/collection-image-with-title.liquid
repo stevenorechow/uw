@@ -1,7 +1,7 @@
 {% liquid
   assign show_banner_image = section.settings.show_image
   assign show_text_shadow = settings.show_text_shadow
-  assign banner_image = collection.image
+  assign banner_image = 'collection-header.svg' | asset_url
   assign banner_height = section.settings.banner_height
   assign text_position = section.settings.text_position
   assign overlay_opacity = section.settings.overlay_opacity | times: 0.01
