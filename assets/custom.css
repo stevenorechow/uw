@@ -20,6 +20,9 @@
   color: var(--text-darken) !important;
   font-weight: bold !important;
 }
+.snize-ac-results .snize-description {
+  color: #475569 !important;
+}
 .product-grid-item__title {
   color: var(--text-darken) !important;
   font-weight: bold !important;
@@ -87,6 +90,26 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   line-height: 0;
   padding: 7px 0px;
 }
+.snize-ac-results .snize-nothing-found .snize-popular-suggestions-view-all-products-text {
+  border-radius: 4px !important;
+}
+
+span.snize-product-filters-title {
+  color: var(--text-darken) !important;
+  font-weight: bold !important;
+}
+
+div.snize-product-filters-buttons-container div.snize-product-filters-buttons button {
+  border-radius: 4px !important;
+}
+
+div#snize_filters_block_header span.snize-product-filters-title {
+  font-size: 20px !important;
+}
+
+div.snize-search-results-header {
+  font-size: 14px !important;
+}
 
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
@@ -100,10 +123,6 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   .img-logo{
     width: 65%;
   }
-
-  /* .icon-section-col {
-    text-align: left;
-  } */
 
   .icon-section-col img {
     width: 40px;
