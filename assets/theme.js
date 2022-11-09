@@ -12606,7 +12606,7 @@ PaloAlto.Testimonials = (function() {
         prevNextButtons: true,
         pageDots: false,
         groupCells: true,
-        cellAlign: 'left',
+        cellAlign: 'center',
         contain: true,
         adaptiveHeight: false,
       });
