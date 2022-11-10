@@ -43,7 +43,7 @@
     "d93b2818-2d42-4641-b2f6-52ca94929be7": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            When you spend over $99* Some exclusions apply\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"50\" height=\"50\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            On orders over $99<br>(Some exclusions apply)\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -329,10 +329,10 @@
         "testimonial-0": {
           "type": "text",
           "settings": {
-            "heading": "We let our reviews speak for themselves.",
+            "heading": "Don't take our word for it, here's what they’re saying →",
             "text_size": 125,
-            "subheading": "<p>4.98 average<br>213 reviews<\/p>",
-            "block_color": "#000000",
+            "subheading": "<p>5.00 Average<\/p>",
+            "block_color": "#1e293b",
             "text_color": "text-light",
             "text_alignment": "text-left"
           }
@@ -341,54 +341,27 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
+            "text": "<p>Love this new store just off MacLeod Trail! Huge space filled with tons of deals.<\/p>",
+            "customer_name": "Carol",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         },
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
+            "text": "<p>Good prices and a great location, what's not to like?!<\/p>",
+            "customer_name": "Luis",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         },
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
-          }
-        },
-        "testimonial-4": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
-          }
-        },
-        "testimonial-5": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
-          }
-        },
-        "testimonial-6": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Excellent customer service. I love their products!<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Loyal Customer<\/p>"
+            "text": "<p>Amazing deals ran by a friendly group of people.<\/p>",
+            "customer_name": "Robb",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         }
       },
@@ -396,19 +369,16 @@
         "testimonial-0",
         "testimonial-1",
         "testimonial-2",
-        "testimonial-3",
-        "testimonial-4",
-        "testimonial-5",
-        "testimonial-6"
+        "testimonial-3"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "The reviews are in. People love Urban Wholesale.",
         "text_size": 100,
-        "text_alignment": "text-left",
-        "bg_color": "",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "text_alignment": "text-center",
+        "bg_color": "#f1f5f9",
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "image-with-text-1": {
