@@ -111,6 +111,31 @@ div.snize-search-results-header {
   font-size: 14px !important;
 }
 
+.collection__badge {
+  max-width: 100%;
+  margin: 10px;
+  display: inline-grid;
+  grid-template-columns: minmax(0, 100%);
+  gap: 5px;
+  justify-items: start;
+  transition: transform 0.2s ease;
+}
+
+.collection__badge__item {
+  color: var(--COLOR-TAG-TEXT-SALE);
+  background-color: var(--COLOR-TAG-SALE);
+  border-radius: var(--radius-small);
+  text-align: left;
+  text-transform: var(--BUTTON-TEXT-CAPS);
+  font-size: calc( 0.6875rem * var(--adjust-body));
+  font-weight: var(--FONT-WEIGHT-BODY-MEDIUM);
+  letter-spacing: var(--BUTTON-TEXT-CAPS);
+  line-height: 1.2;
+  transition: opacity 0.15s ease;
+  padding: 9px 13px;
+  height: auto;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
