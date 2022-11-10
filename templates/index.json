@@ -3,7 +3,7 @@
     "725b69db-6cea-4570-8a42-6ee24f136dbb": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<section id=\"brick-section--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" class=\"section-padding brick__section\" data-overflow-wrapper=\"\" data-section-id=\"template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" data-section-type=\"custom-content\" style=\"min-height: 650px;\">\n\n  <div class=\"brick__section__wrapper wrapper--full six-fifty-height\">\n    <div class=\"brick__blocks__flex brick__blocks__flex--stuck\" data-overflow-frame=\"\" style=\"min-height: 650px;\"><div id=\"BrickBlock--43c20b2f-a646-4820-ba84-d2658f73c658\" class=\"brick__block brick__block--image text-dark\">\n            <div class=\"brick__block__content\" data-overflow-content=\"\">\n              <div class=\"brick__block__inner\"><div class=\"brick__image six-fifty-height\" id=\"FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658\"><style data-shopify=\"\">#FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 { --overlay-opacity: 0.1; }\n  #FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * 1.2) }<\/style><div class=\"featured-image__pane\">\n  <div class=\"featured-image__scale\"><div><img class=\"placeholder-svg-filled\"src=\"{{ 'block-pattern.svg' | asset_url }}\" alt=\"Decorative\"><\/div><div class=\"overlay\"><\/div>\n  <\/div>\n<\/div>\n\n<div class=\"featured-image__content align--middle-center\">\n  <div class=\"featured-image__content-inner\" data-overflow-content=\"\"><h1 class=\"featured-image__caption main-text\">You'll find incredible deals with Urban Wholesale.<\/h1><h2 class=\"featured-image__heading main-heading\">Discover thousands of quality products at a fraction of the price.<\/h2><div class=\"featured-image__buttons main-buttons\">\n        <div class=\"main-buttons__item\">\n          <a class=\"btn btn--primary btn--small call-to-action\" href=\"\/collections\">Shop Now<\/a>\n        <\/div>\n      <\/div><\/div><\/div>\n                    <\/div><\/div>\n            <\/div>\n          <\/div><\/div>\n  <\/div>\n<\/section>",
+        "custom_liquid": "<section id=\"brick-section--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" class=\"section-padding brick__section\" data-overflow-wrapper=\"\" data-section-id=\"template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614\" data-section-type=\"custom-content\" style=\"min-height: 650px;\">\n\n  <div class=\"brick__section__wrapper wrapper--full six-fifty-height\">\n    <div class=\"brick__blocks__flex brick__blocks__flex--stuck\" data-overflow-frame=\"\" style=\"min-height: 650px;\"><div id=\"BrickBlock--43c20b2f-a646-4820-ba84-d2658f73c658\" class=\"brick__block brick__block--image text-dark\">\n            <div class=\"brick__block__content\" data-overflow-content=\"\">\n              <div class=\"brick__block__inner\"><div class=\"brick__image six-fifty-height\" id=\"FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658\"><style data-shopify=\"\">#FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 { --overlay-opacity: 0.1; }\n  #FeaturedImage--template--16676362911960__df2f9bff-0f22-4666-a9ad-093a53228614--43c20b2f-a646-4820-ba84-d2658f73c658 .main-heading { --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * 1.2) }<\/style><div class=\"featured-image__pane\">\n  <div class=\"featured-image__scale\"><div><img class=\"placeholder-svg-filled\"src=\"{{ 'block-pattern.svg' | asset_url }}\" alt=\"Decorative\"><\/div><div class=\"overlay\"><\/div>\n  <\/div>\n<\/div>\n\n<div class=\"featured-image__content align--middle-center\">\n  <div class=\"featured-image__content-inner\" data-overflow-content=\"\"><h1 class=\"featured-image__caption main-text\">An online liquidation store in Calgary, Alberta with 20+ years of experience.<\/h1><h2 class=\"featured-image__heading main-heading\">Discover thousands of quality products at a fraction of the price.<\/h2><div class=\"featured-image__buttons main-buttons\">\n        <div class=\"main-buttons__item\">\n          <a class=\"btn btn--primary btn--small call-to-action\" href=\"\/collections\">Shop Now<\/a>\n        <\/div>\n      <\/div><\/div><\/div>\n                    <\/div><\/div>\n            <\/div>\n          <\/div><\/div>\n  <\/div>\n<\/section>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -43,7 +43,7 @@
     "d93b2818-2d42-4641-b2f6-52ca94929be7": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            On orders over $99<br>(Some exclusions apply)\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>\n            <a href=\"#\">1-877-940-BBOS<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            Get free shipping on orders over $99. Some exclusions apply.\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>Need a hand? Reach out to us anytime and we’ll get back to you with a timely response.<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -116,8 +116,8 @@
             "text_position": "center",
             "top_image_width": 100,
             "text_color": "text-dark",
-            "subheading": "Subheading",
-            "title": "Our Story",
+            "subheading": "",
+            "title": "You'll find incredible deals with Urban Wholesale.",
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_text": "Learn More",
             "button_link": "",
@@ -165,11 +165,11 @@
         "image_background": true,
         "bg_position": "center-center",
         "text_alignment": "center",
-        "subheading": "Subheading",
-        "heading": "Our Story",
+        "subheading": "Why buy at a liquidation store online?",
+        "heading": "You'll find incredible deals with Urban Wholesale.",
         "heading_size": 100,
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Learn More",
+        "text": "<p>If you’re a mindful shopper that wants to stick to a budget without compromising quality, you’re in the right place. Shopping with established Calgary liquidators like Urban Wholesale is a great way to find high-quality, brand name products without worrying about sacrificing affordability.<\/p>",
+        "button_text": "More about us",
         "button_link": "",
         "button_style": "btn--primary btn--small",
         "video_link": "",
@@ -381,6 +381,24 @@
         "padding_bottom": 50
       }
     },
+    "newsletter": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Insider Newsletter",
+        "text": "<p>Save time looking through the shop with occasional spam-free updates with exclusive deals straight to your inbox👇<\/p>",
+        "extra_fields": "name",
+        "button_text": "Get Insider Deals",
+        "bg_color": "#ffffff",
+        "image_height": "two-fifty-height",
+        "image_position": "center-center",
+        "overlay_opacity": 0,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "image-with-text-1": {
       "type": "section-image-with-text",
       "settings": {
@@ -456,24 +474,6 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "newsletter": {
-      "type": "section-newsletter",
-      "settings": {
-        "flex_align": "align--middle-split",
-        "text_color": "text-dark",
-        "title": "Newsletter",
-        "text": "<p>Sign up for exclusive deals and early access to new products.<\/p>",
-        "extra_fields": "name",
-        "button_text": "",
-        "bg_color": "",
-        "image_height": "three-fifty-height",
-        "image_position": "center-center",
-        "overlay_opacity": 10,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -488,8 +488,8 @@
     "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5",
     "grid-0",
     "testimonials",
+    "newsletter",
     "image-with-text-1",
-    "grid-2",
-    "newsletter"
+    "grid-2"
   ]
 }
