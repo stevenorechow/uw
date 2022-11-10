@@ -116,6 +116,10 @@ div.snize-search-results-header {
     height: 100%;
   }
 
+  .featured-image__scale .placeholder-svg-filled {
+    object-fit: cover;
+  }
+
   .icon-section-col h3 {
     font-size: 20px;
   }
