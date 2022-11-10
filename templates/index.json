@@ -8,42 +8,10 @@
         "padding_bottom": 0
       }
     },
-    "df2f9bff-0f22-4666-a9ad-093a53228614": {
-      "type": "section-custom-content",
-      "disabled": true,
-      "blocks": {
-        "43c20b2f-a646-4820-ba84-d2658f73c658": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image_position": "center-center",
-            "overlay_opacity": 10,
-            "text_color": "text-dark",
-            "title": "Discover thousands of quality products at a fraction of the price.",
-            "heading_size": 120,
-            "text": "You'll find incredible deals with Urban Wholesale.",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style": "btn--primary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "43c20b2f-a646-4820-ba84-d2658f73c658"
-      ],
-      "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "",
-        "width": "wrapper--full",
-        "add_gutter": false,
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "d93b2818-2d42-4641-b2f6-52ca94929be7": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            Get free shipping on orders over $99. Some exclusions apply.\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>Need a hand? Reach out to us anytime and we’ll get back to you with a timely response.<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"icon-section-row\" >\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'free-shipping.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Free Shipping\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Free Shipping<\/div>\n        <p>\n            Get free shipping on orders over $99. Some exclusions apply.\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'responsive-support.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Responsive Support\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Responsive Support<\/div>\n        <p>Need a hand? Reach out to us anytime and we’ll get back to you with a timely response.<\/a>\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'our-guarentee.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Our Guarentee\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Our Guarantee<\/div>\n        <p>\n            7-day satisfaction guarentee\n        <\/p>\n    <\/div>\n    <div class=\"icon-section-col\" >\n        <img src=\"{{ 'building-store.svg' | asset_url }}\" width=\"45\" height=\"45\" alt=\"Support Local\" class=\"lazyload\" >\n        <div class=\"icons-heading\">Support Local<\/div>\n        <p>\n            lorem ipsum\n        <\/p>\n    <\/div>\n<\/div>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -118,8 +86,8 @@
             "text_color": "text-dark",
             "subheading": "",
             "title": "You'll find incredible deals with Urban Wholesale.",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_text": "Learn More",
+            "text": "<p>If you’re a mindful shopper that wants to stick to a budget without compromising quality, you’re in the right place.<\/p>",
+            "button_text": "Get started",
             "button_link": "",
             "button_style": "btn--primary btn--small",
             "secondary_button_text": "",
@@ -165,10 +133,10 @@
         "image_background": true,
         "bg_position": "center-center",
         "text_alignment": "center",
-        "subheading": "Why buy at a liquidation store online?",
-        "heading": "You'll find incredible deals with Urban Wholesale.",
+        "subheading": "",
+        "heading": "Why buy at a liquidation store online?",
         "heading_size": 100,
-        "text": "<p>If you’re a mindful shopper that wants to stick to a budget without compromising quality, you’re in the right place. Shopping with established Calgary liquidators like Urban Wholesale is a great way to find high-quality, brand name products without worrying about sacrificing affordability.<\/p>",
+        "text": "<p>Shopping with established Calgary liquidators like Urban Wholesale is a great way to find high-quality, brand name products without worrying about sacrificing affordability.<\/p>",
         "button_text": "More about us",
         "button_link": "",
         "button_style": "btn--primary btn--small",
@@ -226,6 +194,64 @@
         "enable_slider_mobile": true,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "testimonials": {
+      "type": "section-testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Don't take our word for it, here's what they’re saying →",
+            "text_size": 125,
+            "subheading": "<p>5.00 Average<\/p>",
+            "block_color": "#1e293b",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Love this new store just off MacLeod Trail! Huge space filled with tons of deals.<\/p>",
+            "customer_name": "Carol",
+            "subheading": "<p>Satisfied Customer<\/p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Good prices and a great location, what's not to like?!<\/p>",
+            "customer_name": "Luis",
+            "subheading": "<p>Satisfied Customer<\/p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Amazing deals ran by a friendly group of people.<\/p>",
+            "customer_name": "Robb",
+            "subheading": "<p>Satisfied Customer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "settings": {
+        "title": "The reviews are in. People love Urban Wholesale.",
+        "text_size": 100,
+        "text_alignment": "text-center",
+        "bg_color": "#f1f5f9",
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5": {
@@ -321,64 +347,6 @@
         "add_gutter": true,
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "testimonials": {
-      "type": "section-testimonials",
-      "blocks": {
-        "testimonial-0": {
-          "type": "text",
-          "settings": {
-            "heading": "Don't take our word for it, here's what they’re saying →",
-            "text_size": 125,
-            "subheading": "<p>5.00 Average<\/p>",
-            "block_color": "#1e293b",
-            "text_color": "text-light",
-            "text_alignment": "text-left"
-          }
-        },
-        "testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Love this new store just off MacLeod Trail! Huge space filled with tons of deals.<\/p>",
-            "customer_name": "Carol",
-            "subheading": "<p>Satisfied Customer<\/p>"
-          }
-        },
-        "testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Good prices and a great location, what's not to like?!<\/p>",
-            "customer_name": "Luis",
-            "subheading": "<p>Satisfied Customer<\/p>"
-          }
-        },
-        "testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Amazing deals ran by a friendly group of people.<\/p>",
-            "customer_name": "Robb",
-            "subheading": "<p>Satisfied Customer<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial-0",
-        "testimonial-1",
-        "testimonial-2",
-        "testimonial-3"
-      ],
-      "settings": {
-        "title": "The reviews are in. People love Urban Wholesale.",
-        "text_size": 100,
-        "text_alignment": "text-center",
-        "bg_color": "#f1f5f9",
-        "width": "wrapper",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "newsletter": {
@@ -478,16 +446,15 @@
   },
   "order": [
     "725b69db-6cea-4570-8a42-6ee24f136dbb",
-    "df2f9bff-0f22-4666-a9ad-093a53228614",
     "d93b2818-2d42-4641-b2f6-52ca94929be7",
     "tab-collections",
     "custom-content-0",
     "image-with-text-0",
     "marquee",
     "collection",
+    "testimonials",
     "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5",
     "grid-0",
-    "testimonials",
     "newsletter",
     "image-with-text-1",
     "grid-2"
