@@ -202,9 +202,9 @@
         "testimonial-0": {
           "type": "text",
           "settings": {
-            "heading": "Don't take our word for it, here's what they’re saying →",
+            "heading": "People love Urban Wholesale",
             "text_size": 125,
-            "subheading": "<p>5.00 Average<\/p>",
+            "subheading": "<p>Don't take our word for it, here's what they’re saying →<\/p>",
             "block_color": "#1e293b",
             "text_color": "text-light",
             "text_alignment": "text-left"
@@ -214,7 +214,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Love this new store just off MacLeod Trail! Huge space filled with tons of deals.<\/p>",
+            "text": "<p>Love this new store just off Macleod Trail! Huge space filled with tons of liquidation deals. Have been twice and will definitely be heading back.<\/p>",
             "customer_name": "Carol",
             "subheading": "<p>Satisfied Customer<\/p>"
           }
@@ -245,38 +245,13 @@
         "testimonial-3"
       ],
       "settings": {
-        "title": "The reviews are in. People love Urban Wholesale.",
-        "text_size": 100,
+        "title": "The reviews are in",
+        "text_size": 105,
         "text_alignment": "text-center",
         "bg_color": "#f1f5f9",
         "width": "wrapper",
         "padding_top": 50,
         "padding_bottom": 50
-      }
-    },
-    "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5": {
-      "type": "section-overlapping-images",
-      "settings": {
-        "text_position": "right",
-        "text_alignment": "center",
-        "images_width": 750,
-        "images_offset": 60,
-        "image_1_position": "center-center",
-        "image_link_1": "",
-        "image_2_position": "center-center",
-        "image_link_2": "",
-        "hide_image_2": false,
-        "heading": "Our Story, Our Promise",
-        "description": "<p>Use this text to describe a product, promotion, or your company.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "button_style": "btn--primary btn--small",
-        "video_text": "",
-        "video_link": "",
-        "bg_color": "",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "grid-0": {
@@ -453,7 +428,6 @@
     "marquee",
     "collection",
     "testimonials",
-    "ed1a17ba-9f6f-4be6-a0ef-6387e34b12e5",
     "grid-0",
     "newsletter",
     "image-with-text-1",
