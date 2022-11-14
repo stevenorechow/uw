@@ -20,7 +20,7 @@
     replace:'\u0026','&'
   -%}
 
-  {%- if pageUrl contains "?" or page.handle == 'search-results-page' -%}
+  {%- if pageUrl contains "?" or page.handle == 'search-results-page' or collection.products_count == 0 -%}
     <meta name="robots" content="noindex, nofollow">
   {%- endif -%}
 
