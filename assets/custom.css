@@ -26,6 +26,7 @@
 .product-grid-item__title {
   color: var(--text-darken) !important;
   font-weight: bold !important;
+  font-size: 20px !important;
 }
 div.snize .snize-filters-sidebar div.snize-product-filters-title {
   font-weight: bold;
@@ -143,6 +144,10 @@ div.snize-search-results-header {
 .featured-image__caption {
   font-size: calc(1rem * var(--adjust-body));
   color: #475569 !important;
+}
+
+.product-grid-item__price {
+  font-size: 18px !important;
 }
 
 @media only screen and (max-width: 767px) {
