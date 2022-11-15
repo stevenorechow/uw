@@ -418,6 +418,14 @@
         {%- endif -%}
       </a>
 
+      {%- form 'product', product, data-product-form: '', data-quickbuy-form: '', id: unique, class: 'quick__form' -%}
+        <input type="hidden" name="quantity" value="1">
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+        <button type="submit" name="add" class="btn btn--submit product__submit__add" data-add-to-cart data-product-id="{{ current_variant.id }}"{% if index > 1 %} tabindex="-1"{% endif %}>
+          Add to Cart
+        </button>
+      {%- endform -%}
+
       {%- if settings.show_rating and product.metafields.reviews != empty -%}
         <a href="{{ product.url }}" class="product-grid-item__rating"{% if index > 1 %} tabindex="-1"{% endif %}>
           {%- render 'rating', reviews: product.metafields.reviews, show_rating_count: settings.show_rating_count, tabindex_hidden: tabindex_hidden -%}
