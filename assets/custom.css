@@ -47,6 +47,7 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
 }
 .icons-heading{
   font-size: 1.3rem;
+  font-weight: 500;
 }
 #snize-search-results-grid-mode li.snize-product span.snize-title {
   font-size: calc(1rem * var(--adjust-body)) !important;
@@ -141,7 +142,7 @@ div.snize-search-results-header {
 }
 
 .featured-image__caption {
-  font-size: calc(1rem * var(--adjust-body));
+  font-size: calc(0.85rem * var(--adjust-body));
   color: #475569 !important;
 }
 
@@ -177,6 +178,10 @@ div.snize-search-results-header {
   stroke: #EEA670;
 }
 
+.mobile-nav--weight-bold a {
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
@@ -201,7 +206,6 @@ div.snize-search-results-header {
   .icon-section-col p {
     padding: 0;
     font-size: 13px;
-    font-weight: 500;
   }
 
   .icons-heading {
