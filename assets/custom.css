@@ -215,9 +215,9 @@ div.snize-search-results-header {
 
 @media only screen and (max-width: 479px) {
   .header-section-arrow {
-    /* top: -120px;
-    right: 65px; */
-    display: none;
+    top: -5px;
+    right: 100px;
+    transform: rotate(90deg);
   }
 }
 
