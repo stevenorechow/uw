@@ -158,6 +158,17 @@ div.snize-search-results-header {
   height: auto !important;
 }
 
+.featured-image__buttons .main-buttons__item {
+  position: relative;
+}
+
+.header-section-arrow {
+  position: absolute;
+  top: -85px;
+  right: -50px;
+  width: 60px;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
@@ -191,6 +202,14 @@ div.snize-search-results-header {
 
   .footer-block__logo-image {
     width: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .header-section-arrow {
+    /* top: -120px;
+    right: 65px; */
+    display: none;
   }
 }
 
