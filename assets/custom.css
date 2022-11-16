@@ -169,6 +169,14 @@ div.snize-search-results-header {
   width: 60px;
 }
 
+.testimonial__stars .icon-star--full {
+  fill: #EEA670;
+}
+
+.testimonial__stars .rating__star .icon-star {
+  stroke: #EEA670;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
