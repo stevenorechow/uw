@@ -85,9 +85,7 @@
 
                   {%- render 'responsive-image', image: block.settings.image, image_class: 'logo--footer', image_alt: image_alt, image_attributes: image_attributes, container_attributes: container_attributes -%}
                 {%- else -%}
-                  <div class="placeholder-svg placeholder-svg--overlayed">
-                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg-filled' }}
-                  </div>
+                  <img class="footer-logo-img lazyload" src="{{ 'uw-logo-light.svg' | asset_url }}" width="100" height="100" alt="Urban Wholesale Logo" />
                 {%- endif -%}
               </a>
 
