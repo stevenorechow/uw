@@ -182,6 +182,10 @@ div.snize-search-results-header {
   font-weight: 700;
 }
 
+.product-grid-item__info .product__submit__add {
+  margin-top: 7px;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
