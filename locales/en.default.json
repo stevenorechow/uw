@@ -22,15 +22,15 @@
       "search-field": "Search text field",
       "mobile_menu_toggle": "Open navigation menu",
       "open_cart": "Open cart",
-      "increase": "Increase Quantity",
-      "decrease": "Decrease Quantity",
+      "increase": "Increase quantity",
+      "decrease": "Decrease quantity",
       "submit_email": "Submit",
-      "subscribe_to_newsletter": "Subscribe to Our Newsletter",
+      "subscribe_to_newsletter": "Subscribe to our newsletter",
       "link_copied": "Link copied",
       "logo_image": "Logo image",
       "unit_price_separator": "per",
-      "my_account": "My Account",
-      "total_reviews": "total reviews",
+      "my_account": "My account",
+      "total_reviews": "Total reviews",
       "view": "View",
       "product_image_lightbox": "Open image lightbox",
       "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
@@ -42,41 +42,41 @@
       "page": "Page {{ page }}"
     },
     "404": {
-      "title": "404",
-      "subtext_html": "This page does not exist.",
-      "button_text": "Return to Home"
+      "title": "Lost your way?",
+      "subtext_html": "Let’s get you back on track…",
+      "button_text": "Shop now"
     },
     "newsletter_form": {
       "heading": "Newsletter",
-      "name": "Your name",
+      "name": "Name",
       "first_name": "First name",
       "last_name": "Last name",
-      "email": "Your email",
+      "email": "Email",
       "email_label": "Please enter your email and we will let you know when your selected item becomes available.",
-      "sign_up": "Sign up",
-      "notify": "Notify Me",
+      "sign_up": "Send me the good stuff",
+      "notify": "Notify me",
       "notification_success": "Your email has been received.",
-      "newsletter_success": "Thank you for signing up!",
+      "newsletter_success": "You're in",
       "newsletter_error": "Email is invalid or already taken.",
-      "newsletter_product_availability": "Notify Me When It’s Available"
+      "newsletter_product_availability": "Let me know when it’s available"
     },
     "cookies": {
       "title": "Can we store cookies?",
       "cookies_link": "cookies",
-      "text_html": "Palo Alto uses {{ cookies }} to improve your browsing experience.",
-      "accept": "Ok",
-      "decline": "No Thanks"
+      "text_html": "Urban Wholesale uses {{ cookies }} to improve your browsing experience.",
+      "accept": "Alright",
+      "decline": "No thanks"
     },
     "search": {
-      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
-      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
-      "title": "Search for products on our site",
+      "no_results_html": "Your search for \"{{ terms }}\" did not match any results",
+      "results_for_html": "Showing results for \"{{ terms }}\"",
+      "title": "Search Urban Wholesale",
       "placeholder": "Search Urban Wholesale",
       "submit": "Search",
       "view_all": "View All",
       "popular": "Popular searches",
       "has_results": "Showing results for \"{{search}}\"",
-      "no_results": "Your search for \"{{ search }}\" did not yield any results",
+      "no_results": "Your search for \"{{ search }}\" did not match any results",
       "results": {
         "one": " result",
         "other": " results",
@@ -89,8 +89,8 @@
       }
     },
     "pagination": {
-      "previous": "Previous page",
-      "next": "Next page",
+      "previous": "Previous",
+      "next": "Next",
       "current_page": "Page {{ current }} of {{ total }}"
     }
   },
@@ -98,8 +98,8 @@
     "article": {
       "breadcrumbs": "Blog posts",
       "by_author": "By {{ author }}",
-      "older_post": "Older Post",
-      "newer_post": "Newer Post",
+      "older_post": "Older post",
+      "newer_post": "Newer post",
       "tags": "Tags",
       "comment_meta_html": "{{ author }} on {{ date }}",
       "read_more": "Read more",
@@ -142,13 +142,13 @@
       "update": "Update Cart",
       "checkout": "Checkout",
       "empty": "Your cart is currently empty.",
-      "accept_terms": "You must accept our terms and conditions.",
+      "accept_terms": "Please accept our terms and conditions.",
       "zero_qty_error": "Quantity must be greater than 0.",
       "limit_error": "Sorry, looks like we don't have enough of this product.",
-      "continue_shopping": "Continue Shopping",
-      "close_cart": "Close Cart",
+      "continue_shopping": "Continue shopping",
+      "close_cart": "Close cart",
       "free_shipping_message_html": "Spend <span data-free-shipping-amount=\"\">{{ amount }}<\/span> to qualify for free shipping",
-      "qualified_shipping_message": "FREE shipping will be applied at checkout"
+      "qualified_shipping_message": "Congrats! Free shipping will be applied at checkout."
     },
     "label": {
       "product": "Product",
@@ -200,7 +200,7 @@
       "browse_by": "Browse by",
       "browse_all": "All",
       "featured": "Featured",
-      "best_selling": "Best Selling",
+      "best_selling": "Customer favourites",
       "az": "Alphabetically, A-Z",
       "za": "Alphabetically, Z-A",
       "price_ascending": "Price, low to high",
@@ -210,7 +210,7 @@
     },
     "breadcrumbs": {
       "home": "Home",
-      "back_to_home": "Go back to Home page",
+      "back_to_home": "Back",
       "collections": "Collections",
       "default_collection": "All Products",
       "products": "Products"
@@ -218,7 +218,7 @@
     "onboarding": {
       "popup_title": "This page will show all of your store's products",
       "no_products_html": "There are no products yet, but once you begin adding them they will show up here regardless if they are in a collection.",
-      "add_product": "Add Product"
+      "add_product": "Add product"
     }
   },
   "contact": {
@@ -228,65 +228,65 @@
       "phone": "Phone",
       "message": "Message",
       "send": "Send",
-      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+      "post_success": "Thanks for contacting Urban Wholesale! We'll get back to you as soon as possible."
     }
   },
   "customer": {
     "account": {
-      "title": "My Account",
-      "details": "Account Details",
-      "view_addresses": "View Addresses",
-      "return": "Return to Account Details"
+      "title": "My account",
+      "details": "Account overview",
+      "view_addresses": "View addresses",
+      "return": "Return to account overview"
     },
     "activate_account": {
-      "title": "Activate Account",
-      "subtext": "Create your password to activate your account.",
+      "title": "Activate account",
+      "subtext": "Please reate your password to activate your account.",
       "password": "Password",
-      "password_confirm": "Confirm Password",
-      "submit": "Activate Account",
-      "cancel": "Decline Invitation"
+      "password_confirm": "Confirm password",
+      "submit": "Activate account",
+      "cancel": "Decline invitation"
     },
     "addresses": {
-      "title": "Your Addresses",
+      "title": "Your addresses",
       "default": "Default",
-      "add_new": "Add a New Address",
+      "add_new": "Add a new address",
       "edit_address": "Edit address",
-      "first_name": "First Name",
-      "last_name": "Last Name",
+      "first_name": "First name",
+      "last_name": "Last name",
       "company": "Company",
-      "address1": "Address1",
-      "address2": "Address2",
+      "address1": "Address 1",
+      "address2": "Address 2",
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal\/Zip Code",
+      "zip": "Postal code",
       "phone": "Phone",
       "set_default": "Set as default address",
-      "add": "Add Address",
-      "update": "Update Address",
+      "add": "Add address",
+      "update": "Update address",
       "cancel": "Cancel",
       "edit": "Edit",
       "delete": "Delete",
-      "delete_confirm": "Are you sure you wish to delete this address?"
+      "delete_confirm": "Are you sure you want to delete this address?"
     },
     "login": {
       "title": "Login",
       "email": "Email",
       "password": "Password",
       "forgot_password": "Forgot your password?",
-      "sign_in": "Sign In",
-      "cancel": "Return to Store",
+      "sign_in": "Sign in",
+      "cancel": "Return to Urban Wholesale",
       "guest_title": "Continue as a guest",
       "guest_continue": "Continue",
       "create_account_prompt": "Don't have an account?",
-      "create_account_cta": "Sign up here."
+      "create_account_cta": "Sign up now"
     },
     "orders": {
-      "title": "Order History",
+      "title": "Order history",
       "order_number": "Order",
       "date": "Date",
-      "payment_status": "Payment Status",
-      "fulfillment_status": "Fulfillment Status",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
       "total": "Total",
       "none": "You haven't placed any orders yet."
     },
@@ -295,10 +295,10 @@
       "date": "Placed on {{ date }}",
       "cancelled": "Order Cancelled on {{ date }}",
       "cancelled_reason": "Reason: {{ reason }}",
-      "billing_address": "Billing Address",
-      "payment_status": "Payment Status",
-      "shipping_address": "Shipping Address",
-      "fulfillment_status": "Fulfillment Status",
+      "billing_address": "Billing address",
+      "payment_status": "Payment status",
+      "shipping_address": "Shipping address",
+      "fulfillment_status": "Fulfillment status",
       "discount": "Discount",
       "shipping": "Shipping",
       "tax": "Tax",
@@ -322,33 +322,33 @@
       "title": "Reset account password",
       "subtext": "Enter a new password for {{ email }}",
       "password": "Password",
-      "password_confirm": "Confirm Password",
-      "submit": "Reset Password"
+      "password_confirm": "Confirm password",
+      "submit": "Reset password"
     },
     "register": {
-      "title": "Create Account",
-      "first_name": "First Name",
-      "last_name": "Last Name",
+      "title": "Create account",
+      "first_name": "First name",
+      "last_name": "Last name",
       "email": "Email",
       "password": "Password",
       "submit": "Create",
-      "cancel": "Return to Store"
+      "cancel": "Return to Urban Wholesale"
     }
   },
   "password": {
     "page": {
-      "title": "Opening Soon"
+      "title": "Coming Soon"
     },
     "form": {
       "success": "Thank you for signing up!",
-      "newsletter_title": "Subscribe for Updates",
-      "placeholder": "email@example.com",
+      "newsletter_title": "Subscribe for updates",
+      "placeholder": "youremail@xyz.com",
       "login": "Password"
     },
     "buttons": {
       "sign_up": "Sign up",
-      "store_login": "Store Login",
-      "newsletter_signup": "Newsletter Signup",
+      "store_login": "Store login",
+      "newsletter_signup": "Newsletter",
       "login": "Login"
     }
   },
@@ -358,21 +358,21 @@
       "no_products_html": "Choose a collection to be featured in this section. If none is chosen, all products will appear. You can disable this section by click Customize Theme and then 'Home page'.",
       "color": "Color",
       "size": "Size",
-      "add_product": "Add a Product",
+      "add_product": "Add a product",
       "product_title": "Product Title",
       "vendor": "Shopify",
       "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/custom_collections\">Add some collections<\/a> to go along with the default Frontpage.",
-      "add_collection": "Add a Collection",
+      "add_collection": "Add a collection",
       "collection_title": "Collection",
       "single_product_title": "Showcase a single product",
       "single_product_description": "Once you choose a product, its description will populate here automatically.",
       "single_collection_description": "Once you choose a collection, its description will populate here automatically.",
       "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar.",
       "slideshow": {
-        "heading": "Welcome to Palo Alto",
+        "heading": "Welcome to Urban Wholesale",
         "subheading": "This subheading helps you provide some more detail to the title above.",
         "button_text": "Welcome",
-        "video_button_text": "Watch This Video"
+        "video_button_text": "Watch this video"
       },
       "faq": {
         "question": "Question",
@@ -385,23 +385,23 @@
         "tag": "tag"
       },
       "locations": {
-        "address": "566 Emerson Street Palo Alto, California",
-        "working_hours_html": "Mon - Fri: 8am - 5pm<br>Sat: Closed<br>Sun: Closed"
+        "address": "9631 Macleod Trail SW, #110 T2J 0P6 Calgary",
+        "working_hours_html": "Mon – Fri: 10:00 am – 8:00 pm<br>Sat: 10:00 am – 6:00 pm<br>Sun: 11:00 am – 4:00 pm"
       },
       "icons_row": {
         "title": "Feature",
-        "text": "Palo Alto is a powerful Shopify theme that will set you apart from the rest with a variety of sections and features."
+        "text": "Urban Wholesale is a custom Shopify theme that will set us apart from the rest with a variety of sections and features."
       },
       "testimonials": {
         "testimonial": "Use this testimonial as an opportunity for your customers to discuss your brand and what sets you apart from the competition.",
-        "customer_name_1": "Sherlock Holmes",
-        "customer_name_2": "John Watson",
-        "customer_name_3": "Mycroft Holmes"
+        "customer_name_1": "Steven",
+        "customer_name_2": "Tyler",
+        "customer_name_3": "Lucas"
       },
       "shop_the_look": {
-        "heading": "Our Story",
+        "heading": "Our story",
         "text": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.",
-        "button_text": "Shop Now"
+        "button_text": "Shop now"
       },
       "press": {
         "text": "Provide some information about what the company below thinks about your brand.",
@@ -413,11 +413,11 @@
     "navigation": {
       "menu": "Menu",
       "search": "Search",
-      "see_more": "See More"
+      "see_more": "See more"
     },
     "drawers": {
       "browse": "Browse",
-      "close_menu": "Close menu"
+      "close_menu": "Close"
     },
     "cart": {
       "title": "Cart",
@@ -432,7 +432,7 @@
       "log_out": "Log out",
       "log_in": "Log in",
       "create_account": "Create account",
-      "my_account": "My Account"
+      "my_account": "My account"
     }
   },
   "products": {
@@ -448,28 +448,28 @@
       "reviews": "Reviews",
       "filters": "Filters",
       "filter_by": "Filter by",
-      "reset": "Clear Filters",
-      "close": "Close Filters",
+      "reset": "Clear filters",
+      "close": "Close filters",
       "products_with_count": {
         "one": "{{ count }} product",
         "other": "{{ count }} products"
       },
-      "see_all": "See All",
+      "see_all": "See all",
       "upsell_out_of_stock": "Out of stock",
-      "upsell_error_info": "Select one in the Upsell block setting",
+      "upsell_error_info": "Select one in the upsell block setting",
       "upsell_error_no_product": "No upsell product selected",
-      "pair_products": "Buy It With"
+      "pair_products": "You may also like.."
     },
     "product": {
-      "sold_out": "Sold Out",
+      "sold_out": "Sold out",
       "sale": "Sale",
-      "preorder": "Pre-Order",
+      "preorder": "Pre-order",
       "one_time_purchase": "One-time purchase",
       "free": "Free",
       "unavailable": "Unavailable",
       "compare_at": "Compare at",
       "quantity": "Quantity",
-      "add_to_cart": "Add to Cart",
+      "add_to_cart": "Add to cart",
       "buy_it_now": "Buy it now",
       "in_stock": "Item is in stock",
       "out_of_stock": "Item is out of stock",
@@ -479,7 +479,7 @@
       "on_sale": "Sale",
       "save_badge_html": "Save {{ discount }}",
       "save_badge_up_to_html": "Save up to {{ discount }}",
-      "quick_view": "Quick View",
+      "quick_view": "Quick view",
       "view_more": "View product",
       "checkout": "Checkout",
       "view_in_space": "View in Your Space",
@@ -490,7 +490,7 @@
       "popup_missing": "No page added from the block options",
       "featured": "Featured",
       "limited": "Limited",
-      "best_sellers": "Best Sellers"
+      "best_sellers": "Customer favourites"
     }
   },
   "gift_cards": {
@@ -501,10 +501,10 @@
       "expired": "Expired on {{ expiry }}",
       "active": "Expires on {{ expiry }}",
       "redeem": "Use this code at checkout to redeem your gift card",
-      "shop_link": "Start Shopping",
+      "shop_link": "Start shopping",
       "print": "Print",
       "add_to_apple_wallet": "Add to Apple Wallet",
-      "gift_card": "Gift Card"
+      "gift_card": "Gift card"
     }
   },
   "date_formats": {
