@@ -251,9 +251,11 @@
       All
     </a>
     {%- for collection in collections -%}
-      <a href="{{ collection.url }}" class="collection-link">
-        {{ collection.title }}
-      </a>
+      {%- if collection.products_count != 0 -%}
+        <a href="{{ collection.url }}" class="collection-link">
+          {{ collection.title }}
+        </a>
+      {%- endif -%}
     {%- endfor -%}
   </div>
 
