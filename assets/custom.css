@@ -187,6 +187,10 @@ div.snize-search-results-header {
   margin-top: 7px;
 }
 
+.testimonials-section .section__heading {
+  text-align: center !important;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
