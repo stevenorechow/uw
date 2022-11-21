@@ -191,6 +191,28 @@ div.snize-search-results-header {
   text-align: center !important;
 }
 
+.shopify-payment-button__button--branded {
+  min-height: 0 !important;
+  height: 42px;
+  border-radius: 6px !important;
+}
+
+.additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate div[role=button],
+.additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate iframe,
+.additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate form {
+  height: 47px !important;
+}
+
+.cart__buttons .shopify-cleanslate .pGZsIynlCgQUe6S16lYw,
+.cart__buttons .shopify-cleanslate .XLcXEW3RnM9fyU7k7fvC {
+  height: 47px !important;
+  margin-bottom: 0 !important;
+}
+
+.cart .cart__message--custom {
+  padding: 12px var(--inner);
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
