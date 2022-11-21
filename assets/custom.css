@@ -46,7 +46,8 @@ div.snize .snize-filters-sidebar div.snize-product-filters-title {
   border-radius: 0 4px 4px 0;
 }
 .icons-heading{
-  font-size: 1.3rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   font-weight: 500;
 }
 #snize-search-results-grid-mode li.snize-product span.snize-title {

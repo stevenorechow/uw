@@ -5,85 +5,96 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "subheading": "none",
+            "show_rating": true,
+            "show_rating_count": false
+          }
         },
         "inventory_countdown": {
           "type": "inventory_countdown",
-          "settings": {}
+          "settings": {
+            "max_inventory": 3,
+            "hide_inventory_count": true
+          }
         },
         "form": {
           "type": "form",
-          "settings": {}
-        },
-        "product_accordions": {
-          "type": "product_accordions",
-          "settings": {}
-        },
-        "icon": {
-          "type": "icon",
           "settings": {
-            "text_alignment": "center",
-            "remove_padding": true
+            "info_page": "",
+            "info_page_title_override": "",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true
           }
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "pickup": {
-          "type": "pickup",
-          "disabled": true,
-          "settings": {}
+        "product_accordions": {
+          "type": "product_accordions",
+          "settings": {
+            "accordion_heading_1": "Shipping and returns",
+            "accordion_text_1": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page_1": "",
+            "accordion_heading_2": "",
+            "accordion_text_2": "",
+            "accordion_page_2": "",
+            "accordion_heading_3": "",
+            "accordion_text_3": "",
+            "accordion_page_3": "",
+            "accordion_heading_4": "",
+            "accordion_text_4": "",
+            "accordion_page_4": "",
+            "accordion_heading_5": "",
+            "accordion_text_5": "",
+            "accordion_page_5": ""
+          }
+        },
+        "share-button": {
+          "type": "share-button",
+          "settings": {
+            "text": "Share"
+          }
         },
         "upsell": {
           "type": "upsell",
           "disabled": true,
-          "settings": {}
-        },
-        "share-button": {
-          "type": "share-button",
-          "disabled": true,
-          "settings": {}
+          "settings": {
+            "product_list": []
+          }
         }
       },
       "block_order": [
         "title",
         "inventory_countdown",
         "form",
-        "icon",
         "description",
         "product_accordions",
         "share-button",
         "upsell"
       ],
-      "settings": {}
-    },
-    "section-custom-content-0": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": ""
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "bg_color": "#f4f4f4"
-          }
-        }
-      },
-      "block_order": [
-        "image",
-        "text"
-      ],
       "settings": {
-        "height": "five-fifty-height",
-        "width": "wrapper--full",
-        "add_gutter": false,
+        "show_breadcrumbs": true,
+        "image_size": "small",
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "block_padding": 20,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "limit": 4,
+        "product_recommendations_heading": "You may also like",
+        "bg_color": "",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -91,98 +102,63 @@
     "section-testimonials": {
       "type": "section-testimonials",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "heading": "We asked, you answered. Notable feedback from our customers",
-            "subheading": "<p>4.98 average<br\/>213 reviews<\/p>"
-          }
-        },
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>As a hiker and traveler, their bags are the perfect combo.<\/p>",
-            "customer_name": "John Edmonson",
-            "subheading": "<p>Happy customer<\/p>"
+            "text": "<p>Love this new store just off Macleod Trail! Huge space filled with tons of liquidation deals. Have been twice and will definitely be heading back.<\/p>",
+            "customer_name": "Carol",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         },
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Been buying their products for years and they're all top notch.<\/p>",
-            "customer_name": "Lindsay Smith",
-            "subheading": "<p>Los Angeles, CA<\/p>"
+            "text": "<p>Great store with lots of good products. Awesome prices. Will definitely shop here on a regular basis. They sell furniture, appliances, clothing and lots of other useful items.<\/p>",
+            "customer_name": "Dmytro",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         },
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>Quality products with a unique design. I can't recommend enough.<\/p>",
-            "customer_name": "Eric Lopez",
-            "subheading": "<p>12 days ago<\/p>"
+            "text": "<p>Good prices and a great location, what's not to like?!<\/p>",
+            "customer_name": "Luis",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         },
         "testimonial-4": {
           "type": "testimonial",
           "settings": {
             "star_rating": 5,
-            "text": "<p>I wear their apparel hiking, kayaking and bicycling, and I'm always super comfy in all activities.<\/p>",
-            "customer_name": "Mallory Cruz",
-            "subheading": "<p>Vancouver, BC<\/p>"
-          }
-        },
-        "testimonial-5": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>The materials used are second to none! Long-lasting and high quality. what more can you ask for? <\/p>",
-            "customer_name": "Sasha Dixon",
-            "subheading": "<p>Toronto, ON<\/p>"
-          }
-        },
-        "testimonial-6": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "text": "<p>Amazing customer service. You can tell that they really care about their customers and their whole company.<\/p>",
-            "customer_name": "Neon Dash",
-            "subheading": "<p>New York<\/p>"
+            "text": "<p>Amazing deals ran by a friendly group of people.<\/p>",
+            "customer_name": "Robb",
+            "subheading": "<p>Satisfied Customer<\/p>"
           }
         }
       },
       "block_order": [
-        "text",
         "testimonial-1",
         "testimonial-2",
         "testimonial-3",
-        "testimonial-4",
-        "testimonial-5",
-        "testimonial-6"
+        "testimonial-4"
       ],
       "settings": {
         "title": "",
         "text_size": 100,
         "text_alignment": "text-left",
-        "bg_color": "",
+        "bg_color": "#f1f5f9",
         "width": "wrapper--full-padded",
         "padding_top": 30,
-        "padding_bottom": 100
+        "padding_bottom": 30
       }
     },
-    "section-image-with-text": {
-      "type": "section-image-with-text",
+    "4add50f6-5a33-4641-a650-3217acac6b9a": {
+      "type": "section-liquid",
       "settings": {
-        "image_background": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "apps": {
-      "type": "apps",
-      "settings": {
+        "custom_liquid": "<div>\n    <h2 class=\"icon-section-heading\" >\n        Why Urban Wholesale?\n    <\/h2>\n    <div class=\"icon-section-row\" >\n        <div class=\"icon-section-col\" >\n            <img src=\"{{ 'experience.svg' | asset_url }}\" width=\"35\" height=\"35\" alt=\"Experience\" class=\"lazyload\" \/>\n            <div class=\"icons-heading\">Experience<\/div>\n            <p>\n                With over 25 years of experience, we have established ourselves as the most knowledgeable and trusted Calgary liquidators.\n            <\/p>\n        <\/div>\n        <div class=\"icon-section-col\" >\n            <img src=\"{{ 'affordability.svg' | asset_url }}\" width=\"35\" height=\"35\" alt=\"Affordability\" class=\"lazyload\" \/>\n            <div class=\"icons-heading\">Affordability<\/div>\n            <p>\n                We carry an unbeatable selection of quality products from top brands at amazing prices. You won't find a better deal anywhere else.\n            <\/p>\n        <\/div>\n        <div class=\"icon-section-col\" >\n            <img src=\"{{ 'support.svg' | asset_url }}\" width=\"35\" height=\"35\" alt=\"Responsive Support\" class=\"lazyload\" \/>\n            <div class=\"icons-heading\">Responsive Support<\/div>\n            <p>\n                We prioritize our customer experience. If you need support, reach out to us and we’ll get back to you with a solution as soon as possible.\n            <\/p>\n        <\/div>\n        <div class=\"icon-section-col\" >\n            <img src=\"{{ 'shop-local.svg' | asset_url }}\" width=\"35\" height=\"35\" alt=\"Support Local\" class=\"lazyload\" \/>\n            <div class=\"icons-heading\">Support Local<\/div>\n            <p>\n                When you shop with us, you're supporting the local economy in Calgary, so you can feel good about where your money is going.\n            <\/p>\n        <\/div>\n    <\/div>\n<\/div>",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -193,31 +169,45 @@
         "accordion-0": {
           "type": "text",
           "settings": {
-            "title": "How long does it take to get my products?",
-            "text": "<p>Domestic shipping can take up to 5 business days.<br\/><br\/>Foreign shipping could take up to 14 business days.<br\/><br\/>Due to global supply chain challenges, shipping times could be longer than usual.<\/p>"
+            "title": "Where can I ask additional questions or get support?",
+            "text": "<p>Have a more specific question we didn't answer or need to contact our support team? You can reach us at <a href=\"tel:4032669347\">(403) 266-9347<\/a> or by sending us an email at <a href=\"mailto:support@urbanwholesale.ca\">support@urbanwholesale.ca<\/a> and we’ll get back to you as soon as possible!<\/p>"
           }
         },
-        "accordion-1": {
+        "2adb1e3e-cc09-4af0-b4d8-92a7f2e1674b": {
           "type": "text",
           "settings": {
-            "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br\/><br\/>Our warranty provides a guarantee against manufacturer defects.<br\/><br\/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br\/><br\/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.<\/p>"
+            "title": "Are the products authentic?",
+            "text": "<p>All of our products are guaranteed authentic. We do not sell bootleg, knock off or reproduction items.<\/p>"
           }
         },
         "accordion-2": {
           "type": "text",
           "settings": {
             "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br\/><br\/>Please enquire for more information about our Refund policy.<\/p>"
+            "text": "<p>We’re passionate about customer service. If there was a mistake on our behalf making product declarations on a damaged or defective item, we'll do everything we can to make the situation right. <\/p><p>We accept returns on purchases for store credit within 30 days of the purchase date if it is still in the original packaging and in sellable condition. The original and return shipping costs are not included.<\/p>"
+          }
+        },
+        "accordion-1": {
+          "type": "text",
+          "settings": {
+            "title": "What are liquidation stores?",
+            "text": "<p>Liquidation stores are retail outlets that sell merchandise that has been marked down to below-cost in order to clear out inventory. The products you'll find at liquidation stores are generally rotated seasonal inventory, overstock, shelf pulls, and customer returns that have been purchased from large wholesale retail stores. Many liquidation stores also offer discounted prices to customers who are willing to buy in bulk, which can be a fantastic way to save money on high quality retail items.<\/p>"
           }
         }
       },
       "block_order": [
         "accordion-0",
-        "accordion-1",
-        "accordion-2"
+        "2adb1e3e-cc09-4af0-b4d8-92a7f2e1674b",
+        "accordion-2",
+        "accordion-1"
       ],
       "settings": {
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "",
+        "bg_color": "",
+        "text_color": "text-dark",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -228,15 +218,33 @@
         "grid-0": {
           "type": "image",
           "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
             "title": "Shop Trending",
-            "text": ""
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
           }
         },
         "grid-1": {
           "type": "image",
           "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
             "title": "Shop Sale",
-            "text": ""
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
           }
         }
       },
@@ -245,78 +253,25 @@
         "grid-1"
       ],
       "settings": {
-        "height": "550",
-        "heading_size": 150,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "related": {
-      "type": "related-products",
-      "settings": {
-        "limit": 4,
-        "product_recommendations_heading": "You May Also Like",
+        "height": "auto",
+        "heading_size": 100,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
         "bg_color": "",
+        "enable_slider_mobile": false,
         "width": "wrapper",
+        "add_gutter": true,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section-icons-row": {
-      "type": "section-icons-row",
-      "blocks": {
-        "icon-0": {
-          "type": "text",
-          "settings": {
-            "icon_name": "truck",
-            "title": "Free Shipping",
-            "text": "<p>on all order over $99<\/p>"
-          }
-        },
-        "icon-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "refresh-cw",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase<\/p>"
-          }
-        },
-        "icon-2": {
-          "type": "text",
-          "settings": {
-            "icon_name": "heart",
-            "title": "1% Donated Annually",
-            "text": "<p>to forest conservation<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon-0",
-        "icon-1",
-        "icon-2"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "bg_color": "#f6f6f7",
-        "box_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_style": "secondary btn--small",
-        "padding_top": 60,
-        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
-    "section-custom-content-0",
-    "section-testimonials",
-    "section-image-with-text",
-    "apps",
-    "section-accordions",
-    "grid",
     "related",
-    "section-icons-row"
+    "section-testimonials",
+    "4add50f6-5a33-4641-a650-3217acac6b9a",
+    "section-accordions",
+    "grid"
   ]
 }
