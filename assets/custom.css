@@ -198,7 +198,6 @@ div.snize-search-results-header {
 }
 
 .additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate div[role=button],
-.additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate iframe,
 .additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate form {
   height: 47px !important;
 }
@@ -209,8 +208,17 @@ div.snize-search-results-header {
   margin-bottom: 0 !important;
 }
 
+.cart__buttons .shopify-cleanslate .XLcXEW3RnM9fyU7k7fvC:nth-child(2) {
+  height: 54px !important;
+}
+
 .cart .cart__message--custom {
   padding: 12px var(--inner);
+  border-radius: 6px !important;
+}
+
+.btn--secondary {
+  border-color: #CCFBF1 !important;
 }
 
 @media only screen and (max-width: 767px) {
