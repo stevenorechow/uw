@@ -175,9 +175,9 @@
       "settings": {
         "title": "The reviews are in",
         "text_size": 105,
-        "text_alignment": "text-center",
+        "text_alignment": "text-left",
         "bg_color": "#f1f5f9",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "padding_top": 50,
         "padding_bottom": 50
       }
