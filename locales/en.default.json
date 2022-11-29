@@ -52,6 +52,8 @@
       "first_name": "First name",
       "last_name": "Last name",
       "email": "Email",
+      "phone_number": "Phone Number",
+      "tos": "I consent to getting marketing communications.",
       "email_label": "Please enter your email and we will let you know when your selected item becomes available.",
       "sign_up": "Send me the good stuff",
       "notify": "Notify me",

@@ -3,9 +3,8 @@
   assign unique = section.id
   assign section_width = section.settings.width
   assign title = section.settings.title
+  assign sub_heading = section.settings.sub_heading
   assign text = section.settings.text
-  assign bg_color = section.settings.bg_color
-  assign image = section.settings.image
   assign image_position = section.settings.image_position
   assign image_bg_pos = image_position | prepend: 'bg-pos-'
   assign overlay_opacity = section.settings.overlay_opacity | times: 0.01
@@ -26,33 +25,43 @@
 {%- endstyle -%}
 
 <section
-  class="section-padding newsletter-section{% if image %} {{ section.settings.image_height }}{% endif %} {{ section.settings.text_color }}"
+  class="section-padding newsletter-section {{ section.settings.text_color }}"
   id="Newsletter--{{ unique }}"
   data-section-id="{{ unique }}"
   data-section-type="newsletter"
   data-overflow-container>
-  {%- if image -%}
-    <div class="newsletter-section__bg {{ image_bg_pos }} lazyload"
-      data-bgset="{% render 'bgset', image: image %}"
-      data-sizes="auto"
-      data-parent-fit="cover"
-      {% if animations_enabled %}
-        data-aos="fade"
-        data-aos-anchor="{{ animation_anchor }}"
-        data-aos-delay="{{ animation_delay }}"
-        {%- assign animation_delay = animation_delay | plus: 150 -%}
-      {% endif %}>
-    </div>
-    <noscript>
-      <div class="newsletter-section__bg {{ image_bg_pos }}" style="background-image: url('{{ image | img_url:'2048x' }}');"></div>
-    </noscript>
-    <div class="overlay"></div>
-  {%- endif -%}
+  <div class="newsletter-section__bg {{ image_bg_pos }} lazyload"
+    data-bgset="{{ 'background-pattern-dark.svg' | asset_url }}"
+    data-sizes="auto"
+    data-parent-fit="cover"
+    {% if animations_enabled %}
+      data-aos="fade"
+      data-aos-anchor="{{ animation_anchor }}"
+      data-aos-delay="{{ animation_delay }}"
+      {%- assign animation_delay = animation_delay | plus: 150 -%}
+    {% endif %}>
+  </div>
+  <noscript>
+    <div class="newsletter-section__bg {{ image_bg_pos }}" style="background-image: url('{{ 'background-pattern-dark.svg' | asset_url }}');"></div>
+  </noscript>
+  <div class="overlay"></div>
 
   <div class="{{ section_width }}">
     <div class="newsletter-section__content__wrapper {{ section.settings.flex_align }}">
       <div class="newsletter-section__content" data-overflow-content>
         <div class="newsletter-section__entry">
+          {%- if sub_heading != blank -%}
+            <h3
+              {% if animations_enabled %}
+                data-aos="fade-up"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}>
+              {{- sub_heading | escape -}}
+            </h3>
+          {%- endif -%}
+
           {%- if title != blank -%}
             <h2
               {% if animations_enabled %}
@@ -66,7 +75,7 @@
           {%- endif -%}
 
           {%- if text != blank -%}
-            <div
+            <div class="text"
               {% if animations_enabled %}
                 data-aos="fade-up"
                 data-aos-anchor="{{ animation_anchor }}"
@@ -77,7 +86,6 @@
             </div>
           {%- endif -%}
         </div>
-
         <div class="newsletter"
           {% if animations_enabled %}
             data-aos="fade-up"
@@ -142,7 +150,13 @@
         "type": "text",
         "id": "title",
         "label": "Heading",
-        "default": "Newsletter"
+        "default": "Join the club"
+      },
+      {
+        "type": "text",
+        "id": "sub_heading",
+        "label": "Sub heading",
+        "default": "STACK UP THE SAVINGS ON OUR TOP PRODUCTS"
       },
       {
         "type": "richtext",
@@ -173,20 +187,6 @@
         "type": "text",
         "id": "button_text",
         "label": "Button text"
-      },
-      {
-        "type": "header",
-        "content": "Background"
-      },
-      {
-        "type": "color",
-        "id": "bg_color",
-        "label": "Color"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
       },
       {
         "type": "select",

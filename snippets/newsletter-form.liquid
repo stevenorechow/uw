@@ -107,8 +107,28 @@
       >
     </div>
 
+    <div class="input-group__item input-group__item--phone_number">
+      <input type="number" id="PhoneNumber--{{ unique }}"
+        class="input-group__field input-group__field--phone_number"
+        value="{% if customer %}{{ customer.phone_number }}{% endif %}"
+        placeholder="{{ 'general.newsletter_form.phone_number' | t }}"
+        name="contact[phone_number]"
+        autocorrect="off"
+        autocapitalize="off"
+        aria-label="{{ 'general.newsletter_form.phone_number' | t }}"
+        {% if form.errors contains 'phone_number' %}
+          aria-invalid="true"
+        {% endif %}
+      >
+    </div>
+
+    <div class="input-group__item input-group__item--phone_number">
+      <input type="checkbox" id="TOS--{{ unique }}" aria-label="{{ 'general.newsletter_form.tos' | t }}">
+      <label for="TOS--{{ unique }}">{{ 'general.newsletter_form.tos' | t }}</label>
+    </div>
+
     <div class="input-group__item input-group__item--btn">
-      <button type="submit" name="subscribe" id="SubscribeSubmit--{{ unique }}" class="{{ button_class }}"{% if is_popup %} data-newsletter-submit{% endif %}>
+      <button type="submit" name="subscribe" id="SubscribeSubmit--{{ unique }}" class="{{ button_class }} disabled"{% if is_popup %} data-newsletter-submit{% endif %} disabled>
         {%- if button_text != blank -%}
           {{- button_text -}}
         {%- else -%}
@@ -130,3 +150,18 @@
     {%- endif -%}
   </div>
 {%- endform -%}
+
+<script>
+  let tos = document.getElementById("TOS--{{ unique }}")
+  let submitBtn = document.getElementById("SubscribeSubmit--{{ unique }}")
+
+  tos.addEventListener("change", (e) => {
+    if(tos.checked) {
+      submitBtn.disabled = false;
+      submitBtn.classList.remove("disabled");
+    } else {
+      submitBtn.disabled = true;
+      submitBtn.classList.add("disabled");
+    }
+  })
+</script>

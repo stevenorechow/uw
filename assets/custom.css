@@ -221,6 +221,67 @@ div.snize-search-results-header {
   border-color: #CCFBF1 !important;
 }
 
+.align--middle-split .newsletter-section__entry {
+  text-align: center;
+  padding: 0
+}
+
+.align--middle-split .newsletter-section__entry h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6rem;
+  color: rgba(204,251,241,1);
+}
+
+.align--middle-split .newsletter-section__entry h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.align--middle-split .newsletter-section__entry .text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.align--middle-split .newsletter {
+  max-width: 552px;
+  margin: 3.1rem auto 0;
+}
+
+.newsletter-form .input-group__field {
+  background: white;
+  color: rgba(148,163,184,1);
+}
+
+.newsletter-form .input-group__field::placeholder {
+  color: rgba(148,163,184,1);
+}
+
+.newsletter-form .input-group__btn {
+  font-weight: 600;
+  color: var(--COLOR-TAG-TEXT-FEATURED);
+  background-color: var(--COLOR-TAG-FEATURED);
+  transition-duration: 500ms;
+}
+
+.newsletter-form .input-group__btn:hover {
+  color: rgba(20,184,166,1);
+}
+
+.newsletter-form .input-group__item--phone_number {
+  text-align: left;
+}
+
+.section-padding.newsletter-section {
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
@@ -289,5 +350,37 @@ div.snize-search-results-header {
 @media only screen and (min-width: 1440px) {
   .snize-thumbnail img {
     height: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .align--middle-split .newsletter-section__content {
+    text-align: center;
+    display: block;
+  }
+
+  .align--middle-split .newsletter-section__entry h3, .align--middle-split .newsletter-section__entry .text p {
+    font-size: 20px;
+  }
+
+  .align--middle-split .newsletter-section__entry h2 {
+    font-size: 38px;
+  }
+
+  .newsletter {
+    margin-top: 4.4rem;
+  }
+
+  .newsletter .input-group {
+    justify-content: center;
+  }
+
+  .newsletter .input-group__item {
+    max-width: unset;
+    flex-basis: 100%;
+  }
+
+  .section-padding.newsletter-section {
+    padding-top: 80px;
   }
 }
