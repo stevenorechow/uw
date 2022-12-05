@@ -300,6 +300,18 @@ div.snize-search-results-header {
 .section-description {
   color: #475569
 }
+
+p a:not(.button) {
+  text-decoration: none;
+  box-shadow: 0 -3px 0 rgba(7,59,179,.1) inset;
+  transition: all .6s ease 0s;
+}
+
+p a:not(.button):hover {
+  text-decoration: none;
+  box-shadow: 0 -5px 0 rgba(7,59,179,.1) inset;
+}
+
 @media only screen and (max-width: 767px) {
   .featured-image__scale > div {
     height: 100%;
