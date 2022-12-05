@@ -58,7 +58,7 @@
       "sign_up": "Send me the good stuff",
       "notify": "Notify me",
       "notification_success": "Your email has been received.",
-      "newsletter_success": "You're in",
+      "newsletter_success": "You're in!",
       "newsletter_error": "Email is invalid or already taken.",
       "newsletter_product_availability": "Let me know when it’s available"
     },
