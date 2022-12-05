@@ -26,7 +26,16 @@
 <section id="Testimonials--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="testimonials" class="section-padding testimonials-section has-quotes">
   <div class="{{ section_width }}">
     {%- if section.settings.title != blank -%}
-      <div class="section__header {{ section.settings.text_alignment }}">
+      <div class="section__header {{ section.settings.text_alignment }} text-center">
+        <h2 class="section__sub-heading h3"
+        {% if animations_enabled %}
+            data-aos="fade-up"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-delay="{{ animation_delay }}"
+          {% endif %}
+        >
+          {{ section.settings.sub_title | escape }}
+        </h2>
         <h2 class="section__heading h2"
           {% if animations_enabled %}
             data-aos="fade-up"
@@ -34,6 +43,15 @@
             data-aos-delay="{{ animation_delay }}"
           {% endif %}
         >{{ section.settings.title | escape }}</h2>
+        <h2 class="section__description h4"
+         {% if animations_enabled %}
+            data-aos="fade-up"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-delay="{{ animation_delay }}"
+          {% endif %}
+        >
+          {{ section.settings.description | escape }}
+        </h2>
 
         {%- if settings.show_spacer_lines -%}
           <hr class="section__heading-line"{% if animations_enabled %}
@@ -110,6 +128,18 @@
       "id": "title",
       "label": "Heading",
       "default": "Testimonials"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub heading",
+      "default": "THE REVIEWS ARE IN"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Don't take our word for it, here's what they're saying"
     },
     {
       "type": "range",
