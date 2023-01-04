@@ -250,7 +250,7 @@
       {%- render 'icon-hamburger' -%}
       All
     </a>
-    {%- for collection in collections -%}
+    {%- for collection in collections limit:10 -%}
       {%- if collection.products_count != 0 -%}
         <a href="{{ collection.url }}" class="collection-link">
           {{ collection.title }}
