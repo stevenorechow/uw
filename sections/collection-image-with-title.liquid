@@ -92,12 +92,11 @@
               {% endif %}>{{ collection.title }}</h1>
           {%- endif -%}
         {%- endif -%}
-
-        {% for related_collection in collection.metafields.custom.related_collections.value %}
-          <div class="collection__badge">
+        <div class="collection__badge">
+          {% for related_collection in collection.metafields.custom.related_collections.value %}
             <a class="collection__badge__item" href="{{ related_collection.url }}">{{ related_collection.title}}</a>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </header>
   </div>

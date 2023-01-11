@@ -113,12 +113,11 @@ div.snize-search-results-header {
 }
 
 .collection__badge {
-  max-width: 100%;
-  margin: 10px;
-  display: inline-grid;
-  grid-template-columns: minmax(0, 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 5px;
-  justify-items: start;
+  max-width: 100%;
   transition: transform 0.2s ease;
 }
 
@@ -135,6 +134,7 @@ div.snize-search-results-header {
   transition: opacity 0.15s ease;
   padding: 9px 13px;
   height: auto;
+  display: block;
 }
 
 .icon-section-heading {
@@ -195,6 +195,12 @@ div.snize-search-results-header {
   min-height: 0 !important;
   height: 42px;
   border-radius: 6px !important;
+}
+
+.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+  padding: 9px 13px !important;
+  color: var(--COLOR-BUTTON-SECONDARY-TEXT) !important;
+  background-color: var(--COLOR-BUTTON-SECONDARY-BG) !important;
 }
 
 .additional-checkout-buttons .dynamic-checkout__content .shopify-cleanslate div[role=button],
